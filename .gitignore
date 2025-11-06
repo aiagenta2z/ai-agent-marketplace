@@ -7,3 +7,4 @@ release/
 ai_agent_marketplace.egg-info
 .idea/
 dist/
+*__pycache__*
