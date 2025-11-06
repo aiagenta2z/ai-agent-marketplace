@@ -1,0 +1,12 @@
+{
+    "unique_id": "google-maps/google-maps",
+    "content_name": "Google Maps MCPs",
+    "content": "Google Maps MCPs provides Location Service to support various APIs...",
+    "category": "Map",
+    "field": "MCP SERVER",
+    "subfield": "Map",
+    "content_tag_list": "official",
+    "website": "maps.google.com",
+    "content_tag_list": "maps,location",
+    "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
+}

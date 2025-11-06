@@ -1,0 +1,42 @@
+[project]
+name = "ai_agent_marketplace"
+version = "0.0.4"
+description = "AI Agent Marketplace Registry | AI Agent Directory | AI Agent Index Repo | AI Agent Search Engine for Public Available AI Agents Community"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.17.0"
+]
+
+authors = [
+    { email = "aihubadmin@126.com" }
+]
+license = { text = "MIT License" }
+keywords = ["AI Agent Marketplace", "AI Agent Registry", "AI Agent API", "AI Agent", "MCP SERVER"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License"
+]
+
+
+[project.urls]
+Homepage = "https://www.deepnlp.org/store/ai-agent"
+Repository = "https://github.com/AI-Agent-Hub/AI-Agent-Marketplace"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"ai_agent_marketplace" = "src/ai_agent_marketplace"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["release*", "bak*", "docs*", "tests*", "AGENT.md", "*.sh"]
+
+[tool.setuptools.package-data]
+"ai_agent_marketplace" = ["*.txt", "*.json", "data/*.txt", "data/*.json"]
+"ai_agent_marketplace.data" = ["*.txt", "*.json"]
