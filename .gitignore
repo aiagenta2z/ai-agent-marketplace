@@ -1,0 +1,9 @@
+.DS_store
+*.DS_store
+/bak
+./bak
+run_ai_agent_marketplace.sh
+release/
+ai_agent_marketplace.egg-info
+.idea/
+dist/
