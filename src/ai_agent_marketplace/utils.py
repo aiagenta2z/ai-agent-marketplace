@@ -18,7 +18,6 @@ def read_file(file_path):
         print (e)
     return lines_clean
 
-
 def git_clone(repo_url, local_path):
     command = f'git clone "{repo_url}" "{local_path}"'
     result = os.system(command)

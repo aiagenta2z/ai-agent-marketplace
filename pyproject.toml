@@ -1,6 +1,6 @@
 [project]
 name = "ai_agent_marketplace"
-version = "0.0.4"
+version = "0.0.5"
 description = "AI Agent Marketplace Registry | AI Agent Directory | AI Agent Index Repo | AI Agent Search Engine for Public Available AI Agents Community"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -20,11 +20,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 
-
 [project.urls]
 Homepage = "https://www.deepnlp.org/store/ai-agent"
-Repository = "https://github.com/AI-Agent-Hub/AI-Agent-Marketplace"
-
+Repository = "https://github.com/aiagenta2z/ai-agent-marketplace"
 
 [build-system]
 requires = ["setuptools", "wheel"]
@@ -40,3 +38,6 @@ exclude = ["release*", "bak*", "docs*", "tests*", "AGENT.md", "*.sh"]
 [tool.setuptools.package-data]
 "ai_agent_marketplace" = ["*.txt", "*.json", "data/*.txt", "data/*.json"]
 "ai_agent_marketplace.data" = ["*.txt", "*.json"]
+
+[project.scripts]
+agtm = "ai_agent_marketplace.cli:main"

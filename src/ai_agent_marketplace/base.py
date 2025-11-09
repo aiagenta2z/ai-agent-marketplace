@@ -47,12 +47,12 @@ class Client:
     def add(self, data: Dict, **query_params):
         try:
             ## defaul endpoint
-            self.set_endpoint(endpoint = KEY_ENDPOINT_REGISTER_V2_URL)
+            # self.set_endpoint(endpoint = KEY_ENDPOINT_REGISTER_V2_URL)
             self._check_endpoint()
             timeout = query_params.get(KEY_TIMEOUT, DEFAULT_TIMEOUT)
 
             input_access_key = query_params.get(KEY_ACCESS_KEY, None)
-            env_api_key = os.getenv(KEY_AI_AGENT_MARKETPLACE_API_KEY)
+            env_api_key = os.getenv(KEY_AI_AGENT_MARKETPLACE_ACCESS_KEY)
             final_access_key = None
             if env_api_key is not None:
                 final_access_key = env_api_key
@@ -63,19 +63,30 @@ class Client:
                 return {"code": 500, "message": "Missing access key in environment variables 'AI_AGENT_MARKETPLACE_API_KEY' or input params 'access_key' "}
             # check if it's mock request for demo
             if final_access_key == MOCK_ACCESS_KEY:
-                print ("DEBUG: input access key is mocked setting to mock result, please visit http://www.deepnlp.org/workspace/keys to register your key")
+                print ("DEBUG: input access key is mocked setting to mock result, please visit https://www.deepnlp.org/workspace/keys to register your key")
                 return get_mock_addservice_result()
-
             github = data.get(KEY_GITHUB, "")
+
+            ## check endpoint
+            if self.endpoint == "" or self.endpoint in [KEY_ENDPOINT_REGISTER_V1_URL, KEY_ENDPOINT_REGISTER_V2_URL]:
+                ## default endpoint
+                if github != "":
+                    ## registry from github url using the v2 endpoint
+                    self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V2_URL)
+                else:
+                    ## registry from json using the v1 default endpoint
+                    self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V1_URL)
+            else:
+                ## customized endpoint
+                print(f"INFO: Setting agtm command customized endpoint to '{self.endpoint}'")
+
             if github != "":
-                self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V2_URL)
                 ## sync from Github URL, suitable for new registry api /api/ai_agent_marketplace/registry
                 data[KEY_ACCESS_KEY] = final_access_key
                 response = requests.post(self.endpoint, json=data, timeout=timeout)
                 response.raise_for_status()
                 return response.json()
             else:
-                self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V1_URL)
                 ## sync from input URL, suitable for new registry input parameters
                 result = registry_api_item_info(self.endpoint, data, **query_params)
                 return result
@@ -210,7 +221,8 @@ def get_mock_addservice_result():
             from importlib.resources import files
         data_folder_path = str(files('ai_agent_marketplace.data'))
         input_file = os.path.join(data_folder_path, "add_service_api_demo.json")
-        print ("DEBUG: get_mock_addservice_result reading input file %s" % input_file)
+        if LOG_ENABLE:
+            print ("DEBUG: get_mock_addservice_result reading input file %s" % input_file)
         lines = read_file(input_file)
         input_str = lines[0] if len(lines) > 0 else "{}"
         result = json.loads(input_str)
@@ -219,10 +231,6 @@ def get_mock_addservice_result():
         print ("ERROR: get_mock_addservice_result failed...")
         print (e)
         return {}
-
-
-REGISTER_KEYS_REQUIRED = ["name", "content"]
-REGISTER_KEYS_OPTIONAL = ["website", "field", "subfield", "content_tag_list", "github", "price", "api", "thumbnail_picture", "upload_image_files"]
 
 def registry_api_item_info(registry_url, item_info, **kwargs):
     """
@@ -267,13 +275,15 @@ def registry_api_item_info(registry_url, item_info, **kwargs):
                     data = result.json()
                     msg = "Success"
                     ai_agent_url = data[KEY_URL] if KEY_URL in data else ""
-                    print ("DEBUG: Status %d|Msg %s" % (result.status_code, msg))
-                    print ("DEBUG: You have successfully create Visit your AI Agent , Visit url at %s." % ai_agent_url)
+                    if LOG_ENABLE:
+                        print ("DEBUG: Status %d|Msg %s" % (result.status_code, msg))
+                        print ("DEBUG: You have successfully create Visit your AI Agent , Visit url at %s." % ai_agent_url)
                 else:
                     data = {}
                     content = result.content
-                    msg = f"Failed and returned content {content}"
-                    print (f"DEBUG: Status {result.status_code} and message {msg}")
+                    if LOG_ENABLE:
+                        msg = f"Failed and returned content {content}"
+                        print (f"DEBUG: Status {result.status_code} and message {msg}")
             except Exception as e2:
                 print ("DEBUG: AddServiceAPI failed with input param %s" % str(input_param))
                 print (e2)

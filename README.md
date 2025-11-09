@@ -62,12 +62,13 @@ graph LR
 
 List of Methods that you can register your AI agent
 
-| method | usage |
-| ---- | ---- | 
+| method  | usage                                                                                    |
+|---------|------------------------------------------------------------------------------------------| 
 | Website | Visit the [official AI Agent registry](https://www.deepnlp.org/workspace/my_ai_services) |
-| curl | Support to Submit your Github Repo contents to the marketplace |
-| python | Install packages pip pakcage ai_agent_marketplace |
-| nodejs | TBD |
+| curl    | Support to Submit your Github Repo contents to the marketplace                           |
+| CLI     | Command Line `agtm upload --github` or `agtm upload --config ./agent.json`                                    |
+| python  | Install packages `pip install ai-agent-marketplace`                                      |
+| nodejs  | Install packages  `npm install -g @aiagenta2z/agtm`                                      |
 
 ### Curl 
 
@@ -81,11 +82,27 @@ Firstly, get the keys from [Keys Generation](https://www.deepnlp.org/workspace/k
 curl -X POST https://www.deepnlp.org/api/ai_agent_marketplace/registry -H "Content-Type: application/json" -d '{"github":"https://github.com/microsoft/markitdown", "access_key":"{AI_AGENT_MARKETPLACE_ACCESS_KEY}"}' 
 ```
 
+
+### CLI
+Install the command line using pip or nodejs first, Get access key at [keys](https://www.deepnlp.org/workspace/keys)
+
+```
+export AI_AGENT_MARKETPLACE_ACCESS_KEY="${your_access_key}"
+agtm upload --github https://github.com/AI-Hub-Admin/My-First-AI-Coding-Agent
+
+## upload from json file or yaml file
+agtm upload --config ./agent.json
+agtm upload --config ./agent.yaml
+```
+
+Demo examples can be found in ./tests/agent.json or ./tests/agent.yaml
+
+
 ### Python
 
 ####  Install 
 ```
-pip install ai_agent_marketplace
+pip install ai-agent-marketplace
 
 ```
 
@@ -165,21 +182,18 @@ The unique_id should follow the same /{owerid}/{item-id} format
   "category": "Map",
   "field": "MCP SERVER",
   "subfield": "Map",
-  "content_tag_list": "official",
   "website": "maps.google.com",
-  "content_tag_list": "maps,location"
+  "content_tag_list": "official,maps,location",
   "github": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
 }
 ```
 
 ### NodeJs
-TBD
-
+See the document for node CLI wrapper at [NPM Agtm package](https://github.com/aiagenta2z/agtm)
 
 3. OneKey Agent Router
 
 Try Web App of Onekey [API Router Agent](https://agent.deepnlp.org/agent/mcp_tool_use)
-
 
 
 

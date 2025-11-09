@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+DEBUG_ENABLE = False
+LOG_ENABLE = False
+
 KEY_ID = "id"
 KEY_GITHUB = "github"
 KEY_TIMEOUT = "timeout"
@@ -19,9 +22,12 @@ KEY_ENDPOINT_REGISTER_V2_URL = "https://www.deepnlp.org/api/ai_agent_marketplace
 KEY_ENDPOINT_REGISTER_V1_URL = "https://www.deepnlp.org/api/ai_agent_marketplace/v1"
 KEY_ENDPOINT_BASE_URL_AIAGENTA2Z_V2 = "https://www.aiagenta2z.com/api/ai_agent_marketplace/v2"
 
+REGISTER_KEYS_REQUIRED = ["name", "content"]
+REGISTER_KEYS_OPTIONAL = ["website", "field", "subfield", "content_tag_list", "github", "price_type", "api", "thumbnail_picture", "upload_image_files"]
 
 DEFAULT_TIMEOUT = 10
 
-KEY_AI_AGENT_MARKETPLACE_API_KEY = "AI_AGENT_MARKETPLACE_API_KEY"
+KEY_AI_AGENT_MARKETPLACE_ACCESS_KEY = "AI_AGENT_MARKETPLACE_ACCESS_KEY"
 
 MOCK_ACCESS_KEY = "${your_access_key}"
+

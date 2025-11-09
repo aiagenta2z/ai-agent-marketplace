@@ -5,6 +5,8 @@
 run_ai_agent_marketplace.sh
 release/
 ai_agent_marketplace.egg-info
-.idea/
 dist/
 *__pycache__*
+.venv/
+.idea/
+./tests/test_cli_register.sh

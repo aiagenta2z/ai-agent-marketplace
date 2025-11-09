@@ -194,7 +194,7 @@ class AddServiceAPI(BaseAPI):
         try:
             # check if it's mock request for demo
             if access_key == MOCK_ACCESS_KEY:
-                print ("DEBUG: input access key is mocked setting to mock result, please visit http://www.deepnlp.org/workspace/keys to register your key")
+                print ("DEBUG: input access key is mocked setting to mock result, please visit https://www.deepnlp.org/workspace/keys to register your key")
                 return get_mock_addservice_result()
 
             # required param

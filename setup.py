@@ -33,7 +33,7 @@ setup(
     },    
     python_requires=">=3.4",
     project_urls={
-        "homepage": "http://www.deepnlp.org",
+        "homepage": "https://www.deepnlp.org",
         "repository": "https://github.com/aiagenta2z/ai-agent-marketplace"
     },
 )

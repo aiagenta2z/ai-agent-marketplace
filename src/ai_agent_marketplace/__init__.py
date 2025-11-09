@@ -16,17 +16,26 @@ config_manager.configure(name=KEY_ENDPOINT_REGISTER_V2, endpoint=KEY_ENDPOINT_RE
 config_manager.configure(name=KEY_ENDPOINT_REGISTER_V1, endpoint=KEY_ENDPOINT_REGISTER_V1_URL)
 config_manager.configure(name="aiagenta2z", endpoint=KEY_ENDPOINT_BASE_URL_AIAGENTA2Z_V2)
 
-
-_default_client = Client()
+## Default Registry Endpoint: https://www.deepnlp.org/api/ai_agent_marketplace/registry
+_default_client = Client(endpoint=KEY_ENDPOINT_REGISTER_V2_URL)
 
 DEFAULT_CONFIG_NAME = "deepnlp"
 
 def set_endpoint(config_name="", url=""):
-    config = config_manager.get_config(config_name)
-    if config is not None:
-        _default_client.set_endpoint(config.endpoint)
+    """
+        priority:
+        P1: first set config_name,
+        P2: set using the url
+    """
+    if config_name == "" and url == "":
+        return
+    if config_name != "":
+        config = config_manager.get_config(config_name)
+        if config is not None:
+            _default_client.set_endpoint(config.endpoint)
     else:
-        _default_client.set_endpoint(url)
+        if url != "":
+            _default_client.set_endpoint(url)
 
 def set_endpoint_from_params(params):
     """ Check if params contains config keys
