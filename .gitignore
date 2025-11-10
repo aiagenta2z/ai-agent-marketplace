@@ -10,3 +10,4 @@ dist/
 .venv/
 .idea/
 ./tests/test_cli_register.sh
+tests/test_cli_register.sh

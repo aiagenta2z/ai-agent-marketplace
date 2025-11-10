@@ -1,0 +1,19 @@
+{
+    "required": [
+        "name",
+        "content"
+    ],
+    "optional": [
+        "website", 
+        "field", 
+        "subfield", 
+        "content_tag_list", 
+        "github", 
+        "price_type", 
+        "api", 
+        "thumbnail_picture", 
+        "upload_image_files",
+        "sdk",
+        "package"
+    ]
+}

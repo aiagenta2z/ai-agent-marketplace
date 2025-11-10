@@ -1,6 +1,6 @@
 [project]
 name = "ai_agent_marketplace"
-version = "0.0.5"
+version = "0.0.6"
 description = "AI Agent Marketplace Registry | AI Agent Directory | AI Agent Index Repo | AI Agent Search Engine for Public Available AI Agents Community"
 readme = "README.md"
 requires-python = ">=3.9"

@@ -73,3 +73,10 @@ def search_batch(query_params_list):
         set_endpoint_from_params(query_params_list[0])
     print('GET Endpoint %s' % _default_client.endpoint)        
     return _default_client.search_batch(query_params_list)
+
+def get_endpoint():
+    """
+        Get Endpoint that the package is using...
+    """
+    endpoint = _default_client.endpoint
+    return endpoint

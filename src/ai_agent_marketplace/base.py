@@ -70,18 +70,26 @@ class Client:
             ## check endpoint
             if self.endpoint == "" or self.endpoint in [KEY_ENDPOINT_REGISTER_V1_URL, KEY_ENDPOINT_REGISTER_V2_URL]:
                 ## default endpoint
-                if github != "":
-                    ## registry from github url using the v2 endpoint
-                    self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V2_URL)
-                else:
-                    ## registry from json using the v1 default endpoint
-                    self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V1_URL)
+                self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V2_URL)
+                # if github != "":
+                #     ## registry from github url using the v2 endpoint
+                #     self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V2_URL)
+                # else:
+                #     ## registry from json using the v1 default endpoint
+                #     self.set_endpoint(endpoint=KEY_ENDPOINT_REGISTER_V1_URL)
             else:
                 ## customized endpoint
                 print(f"INFO: Setting agtm command customized endpoint to '{self.endpoint}'")
 
-            if github != "":
-                ## sync from Github URL, suitable for new registry api /api/ai_agent_marketplace/registry
+            ## check if name,content required keys are filled
+            has_required_fields_filled = False 
+            if data.get(KEY_NAME, "") != "" and data.get(KEY_CONTENT, "") != "":
+                has_required_fields_filled = True
+            else:
+                has_required_fields_filled = False 
+            
+            if github != "" and not has_required_fields_filled:
+                ## sync from Github URL, suitable for new registry api /api/ai_agent_marketplace/registry, not agent meta provided
                 data[KEY_ACCESS_KEY] = final_access_key
                 response = requests.post(self.endpoint, json=data, timeout=timeout)
                 response.raise_for_status()
@@ -232,59 +240,72 @@ def get_mock_addservice_result():
         print (e)
         return {}
 
+_schema_default = load_default_schema_file()
+
 def registry_api_item_info(registry_url, item_info, **kwargs):
     """
+        Register Agent Info from the 
+            --config agent.json file and customized 
+            --schema ./schema.json files
+            --endpoint
+        
+        Args:
+            registry_url: str
+            item_info: dict
     """
     data = {}
     msg = ""
     try:
-            # required param
-            input_param = {}
-            input_param[KEY_ACCESS_KEY] = kwargs.get(KEY_ACCESS_KEY, "")
-            input_param[KEY_CONTENT_NAME] = item_info.get(KEY_NAME)
+        # required param
+        input_param = {}
+        input_param[KEY_ACCESS_KEY] = kwargs.get(KEY_ACCESS_KEY, "")
+        input_param[KEY_CONTENT_NAME] = item_info.get(KEY_NAME)
 
-            ## required keys
-            if_pass_check = True
-            for key in REGISTER_KEYS_REQUIRED:
-                if key not in item_info:
-                    print ("ERROR: Input invalid item_info key %s is required but missing %s" % (key, str(item_info)))
-                    if_pass_check = False 
-                    break 
-                else:
-                    input_param[key] = item_info[key]
-            if not if_pass_check:
-                print ("ERROR: Input Param Pass Check failed. ")          
-                return data
+        ## input params have higher priority than default schema
+        schema_dict = kwargs.get(KEY_SCHEMA_DICT, _schema_default)
 
-            ## optional fields
-            filled_fields = []
-            missing_fields = []
-            for key in REGISTER_KEYS_OPTIONAL:
-                if key in item_info:
-                    input_param[key] = item_info[key]
-                    filled_fields.append(key)
-                else:
-                    missing_fields.append(key)
-            print ("WARN: Calling AddServiceAPI input param optional keys filled fields %s|missing_fields %s" % (str(filled_fields), str(missing_fields)))
+        ## required keys
+        if_pass_check = True
+        for key in schema_dict.get(KEY_REQUIRED, []):
+            if key not in item_info:
+                print ("ERROR: Input invalid item_info key %s is required but missing %s" % (key, str(item_info)))
+                if_pass_check = False 
+                break 
+            else:
+                input_param[key] = item_info[key]
+        if not if_pass_check:
+            print ("ERROR: Input Param Pass Check failed. ")          
+            return data
 
-            # timeout
-            timeout = kwargs[KEY_TIMEOUT] if KEY_TIMEOUT in kwargs else DEFAULT_TIMEOUT
-            try:
-                result = requests.post(registry_url, json = input_param, timeout=timeout)
-                if result.status_code == 200:
-                    data = result.json()
-                    msg = "Success"
-                    ai_agent_url = data[KEY_URL] if KEY_URL in data else ""
-                    if LOG_ENABLE:
-                        print ("DEBUG: Status %d|Msg %s" % (result.status_code, msg))
-                        print ("DEBUG: You have successfully create Visit your AI Agent , Visit url at %s." % ai_agent_url)
-                else:
-                    data = {}
-                    content = result.content
-                    if LOG_ENABLE:
-                        msg = f"Failed and returned content {content}"
-                        print (f"DEBUG: Status {result.status_code} and message {msg}")
-            except Exception as e2:
+        ## optional fields
+        filled_fields = []
+        missing_fields = []
+        for key in REGISTER_KEYS_OPTIONAL:
+            if key in item_info:
+                input_param[key] = item_info[key]
+                filled_fields.append(key)
+            else:
+                missing_fields.append(key)
+        print ("WARN: Calling AddServiceAPI input param optional keys filled fields %s|missing_fields %s" % (str(filled_fields), str(missing_fields)))
+
+        # timeout
+        timeout = kwargs[KEY_TIMEOUT] if KEY_TIMEOUT in kwargs else DEFAULT_TIMEOUT
+        try:
+            result = requests.post(registry_url, json = input_param, timeout=timeout)
+            if result.status_code == 200:
+                data = result.json()
+                msg = "Success"
+                ai_agent_url = data[KEY_URL] if KEY_URL in data else ""
+                if LOG_ENABLE:
+                    print ("DEBUG: Status %d|Msg %s" % (result.status_code, msg))
+                    print ("DEBUG: You have successfully create Visit your AI Agent , Visit url at %s." % ai_agent_url)
+            else:
+                data = {}
+                content = result.content
+                if LOG_ENABLE:
+                    msg = f"Failed and returned content {content}"
+                    print (f"DEBUG: Status {result.status_code} and message {msg}")
+        except Exception as e2:
                 print ("DEBUG: AddServiceAPI failed with input param %s" % str(input_param))
                 print (e2)
     except Exception as e:

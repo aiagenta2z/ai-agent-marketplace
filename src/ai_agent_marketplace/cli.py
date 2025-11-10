@@ -6,10 +6,10 @@ import sys
 
 import ai_agent_marketplace as agtm
 from .constants import *
+from .utils import *
 
 AI_AGENT_MARKETPLACE_ACCESS_KEY = "AI_AGENT_MARKETPLACE_ACCESS_KEY"
-
-DEFAULT_ACCESS_KEY = "${your_access_key}"
+DEFAULT_ACCESS_KEY = "{your_access_key}"
 
 def get_access_key():
     key = os.environ.get(AI_AGENT_MARKETPLACE_ACCESS_KEY)
@@ -20,23 +20,6 @@ def get_access_key():
         return DEFAULT_ACCESS_KEY
     return key
 
-def load_config_file(file_path):
-    """Loads a .json or .yaml file and returns the dictionary content."""
-    try:
-        with open(file_path, 'r') as f:
-            if file_path.endswith(('.yaml', '.yml')):
-                return yaml.safe_load(f)
-            elif file_path.endswith('.json'):
-                return json.load(f)
-            else:
-                raise ValueError(f"Unsupported configuration file format. Must be .json or .yaml. Your input {file_path}")
-    except FileNotFoundError:
-        print(f"Error: Configuration file not found at '{file_path}'", file=sys.stderr)
-        sys.exit(1)
-    except Exception as e:
-        print(f"Error loading configuration file: {e}", file=sys.stderr)
-        sys.exit(1)
-
 def upload_command(args):
     """
     Handles the 'agtm upload' command.
@@ -44,19 +27,26 @@ def upload_command(args):
     """
     try:
         access_key = get_access_key()
+        item_info = {}
+        endpoint = args.endpoint
+        customized_endpoint_enable = True if endpoint != "" else False
+
+        schema_path = args.schema
+        customized_schema_enable = True if schema_path != "" else False
+
+        if customized_endpoint_enable:
+            print ("Setting Registry Endpoint to URL: %s" % endpoint)
+            agtm.set_endpoint(url=endpoint)
+
+        if customized_schema_enable:
+            print ("Customized Schema is enabled : %s" % schema_path)
+
         if access_key == DEFAULT_ACCESS_KEY:
             print("\n✅ Mock Registration Successful! Set up your own access key in variable AI_AGENT_MARKETPLACE_ACCESS_KEY")
             print(f"   URL: https://www.deepnlp.org/store/ai-agent/ai-agent/pub-AI-Hub-Admin/My-First-AI-Coding-Agent")
             print(f"   Message: You have successfully registered AI Agent from url https://www.deepnlp.org/store/ai-agent/ai-agent/pub-AI-Hub-Admin/My-First-AI-Coding-Agent")
             print(f"   Track its status at: https://www.deepnlp.org/store/ai-agent/ai-agent/pub-AI-Hub-Admin/My-First-AI-Coding-Agent")
             return
-
-        item_info = {}
-
-        endpoint = args.endpoint
-        customized_endpoint_enable = True if endpoint != "" else False
-        if customized_endpoint_enable:
-            agtm.set_endpoint(url=endpoint)
 
         if args.github:
             print(f"Attempting to register agent from GitHub: {args.github}")
@@ -69,16 +59,24 @@ def upload_command(args):
         elif args.config:
             print(f"Attempting to register agent from config file: {args.config}")
             file_content = load_config_file(args.config)
+            schema_dict = {}
+            if customized_schema_enable:
+                schema_dict = load_custom_schema(schema_path)
+                print (f"Using customized schema {json.dumps(schema_dict)}")
+            else:
+                schema_dict = load_default_schema_file()   
 
-            if not file_content.get('name') or not file_content.get('content'):
-                print("Error: Config file must contain 'name' and 'content' fields.", file=sys.stderr)
-                sys.exit(1)
+            ## Check Required Keys missing
+            for key in schema_dict.get(KEY_REQUIRED, []):
+                if not file_content.get(key) or file_content.get(key) == "":
+                    print(f"Error: Config file must contain non empty required fields {key} defined in schema.json", file=sys.stderr)
+                    sys.exit(1)
+
             item_info.update(file_content)
-            result = agtm.add(data=item_info, access_key=access_key)
+            result = agtm.add(data=item_info, access_key=access_key, schema_dict=schema_dict)
             if LOG_ENABLE:
                 print(
                     f"## DEBUG: AI Agent Marketplace Post Result URL {result.get("url", "")} and message {result.get("msg", "")}")
-
         else:
             # This case should ideally be caught by argparse (either/or),
             # but is a good safeguard.
@@ -98,8 +96,9 @@ def upload_command(args):
                 print(f"   Message: {result_msg}")
                 print(f"   Track its status at: {result_url}")
             else:
-                print("\n❌ Registration Failed.")
+                print(f"\n❌ Registration Failed. Please check your endpoint {agtm.get_endpoint()} and post agent data {item_info}")
                 print(f"   Response Message: {result_msg}")
+                print(f"   Response result: {result}")
                 sys.exit(1)
 
         except Exception as e:
@@ -176,6 +175,12 @@ def main():
         type=str,
         default="",
         help='The endpoint URL for the open-sourced agent registry service to post data to the marketplace. Default to '
+    )
+    upload_parser.add_argument(
+        '--schema',
+        type=str,
+        default="",
+        help='The path to the schema file for the open-sourced agent registry service to post data to the marketplace. Default to ./data/schema.json'
     )
 
     upload_parser.set_defaults(func=upload_command)

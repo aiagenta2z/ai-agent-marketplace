@@ -87,7 +87,7 @@ curl -X POST https://www.deepnlp.org/api/ai_agent_marketplace/registry -H "Conte
 Install the command line using pip or nodejs first, Get access key at [keys](https://www.deepnlp.org/workspace/keys)
 
 ```
-export AI_AGENT_MARKETPLACE_ACCESS_KEY="${your_access_key}"
+export AI_AGENT_MARKETPLACE_ACCESS_KEY="{your_access_key}"
 agtm upload --github https://github.com/AI-Hub-Admin/My-First-AI-Coding-Agent
 
 ## upload from json file or yaml file
@@ -95,7 +95,27 @@ agtm upload --config ./agent.json
 agtm upload --config ./agent.yaml
 ```
 
-Demo examples can be found in ./tests/agent.json or ./tests/agent.yaml
+Demo examples can be found in ./agent.json or ./agent.yaml
+
+**Setup Your Own Endpoint or Schema**
+
+Please visit the command line github package [agtm](https://github.com/aiagenta2z/agtm) detailed usage
+```
+agtm upload --config ./agent.json --endpoint https://www.example.com --schema ./schema.json
+```
+
+For test API Key, please set variable of AI_AGENT_MARKETPLACE_ACCESS_KEY
+```
+export AI_AGENT_MARKETPLACE_ACCESS_KEY="TEST_KEY_AI_AGENT_REGISTRY"
+```
+
+```
+agtm upload --config ./agent.json --endpoint https://www.deepnlp.org/api/ai_agent_marketplace/registry --schema ./schema.json
+
+# or 
+
+agtm upload --config ./agent.json --endpoint https://www.aiagenta2z.com/api/ai_agent_marketplace/registry --schema ./schema.json
+```
 
 
 ### Python
@@ -190,6 +210,11 @@ The unique_id should follow the same /{owerid}/{item-id} format
 
 ### NodeJs
 See the document for node CLI wrapper at [NPM Agtm package](https://github.com/aiagenta2z/agtm)
+
+
+
+
+
 
 3. OneKey Agent Router
 

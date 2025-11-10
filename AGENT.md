@@ -28,10 +28,10 @@ Email Writing
 ### Tags
 EMAIL WRITING,AI AGENT
 ### Reviews
-[mailmeteor com Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/email-writing/pub-mailmeteor-com/mailmeteor-com)
+[mailmeteor com Reviews Traffic and AI Agent Marketplace](https://www.deepnlp.org/store/ai-agent/email-writing/pub-mailmeteor-com/mailmeteor-com)
 ### Links
 https://mailmeteor.com/tools/ai-email-writer<br>
-http://www.deepnlp.org/store/ai-agent/email-writing/pub-mailmeteor-com/mailmeteor-com<br>
+https://www.deepnlp.org/store/ai-agent/email-writing/pub-mailmeteor-com/mailmeteor-com<br>
 
 </details>
 
@@ -50,10 +50,10 @@ Email Writing
 ### Tags
 EMAIL WRITING,IMAGE GENERATOR,MUSIC GENERATOR,VIDEO GENERATOR,AI AGENT
 ### Reviews
-[galaxy ai Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/email-writing/pub-galaxy-ai/galaxy-ai)
+[galaxy ai Reviews Traffic and AI Agent Marketplace](https://www.deepnlp.org/store/ai-agent/email-writing/pub-galaxy-ai/galaxy-ai)
 ### Links
 https://galaxy.ai/ai-email-writer<br>
-http://www.deepnlp.org/store/ai-agent/email-writing/pub-galaxy-ai/galaxy-ai<br>
+https://www.deepnlp.org/store/ai-agent/email-writing/pub-galaxy-ai/galaxy-ai<br>
 
 </details>
 
@@ -72,10 +72,10 @@ Email Writing
 ### Tags
 PRODUCTIVITY,BLOG WRITING,OPERATIONS,MARKETING,FINANCE,MOBILE USE,SEARCH RECOMMENDATION,DESKTOP USE,HUMANOID ROBOT,HEALTHCARE,EDUCATION,VIDEO GENERATOR,AI AGENT EMPLOYEE,EMAIL WRITING,AI AGENT,AI SHOPPING,TRANSLATION,BUSINESS
 ### Reviews
-[allaboutai com Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/email-writing/pub-allaboutai-com/allaboutai-com)
+[allaboutai com Reviews Traffic and AI Agent Marketplace](https://www.deepnlp.org/store/ai-agent/email-writing/pub-allaboutai-com/allaboutai-com)
 ### Links
 https://www.allaboutai.com/ai-agents/email-marketing/<br>
-http://www.deepnlp.org/store/ai-agent/email-writing/pub-allaboutai-com/allaboutai-com<br>
+https://www.deepnlp.org/store/ai-agent/email-writing/pub-allaboutai-com/allaboutai-com<br>
 
 </details>
 
@@ -94,7 +94,7 @@ Email Writing
 ### Tags
 EMAIL WRITING,AI AGENT
 ### Reviews
-[writemail ai Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/email-writing/pub-writemail-ai/writemail-ai)
+[writemail ai Reviews Traffic and AI Agent Marketplace](https://www.deepnlp.org/store/ai-agent/email-writing/pub-writemail-ai/writemail-ai)
 ### Links
 https://writemail.ai/<br>
 http://www.deepnlp.org/store/ai-agent/email-writing/pub-writemail-ai/writemail-ai<br>
@@ -116,7 +116,7 @@ Email Writing
 ### Tags
 SEARCH RECOMMENDATION,DATA ANALYSIS,IMAGE GENERATOR,EMAIL WRITING,AI AGENT,CUSTOMER SERVICE,BUSINESS
 ### Reviews
-[openai Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/email-writing/pub-openai/openai)
+[openai Reviews Traffic and AI Agent Marketplace](https://www.deepnlp.org/store/ai-agent/email-writing/pub-openai/openai)
 ### Links
 https://openai.com/index/superhuman/<br>
 http://www.deepnlp.org/store/ai-agent/email-writing/pub-openai/openai<br>
@@ -138,10 +138,10 @@ Email Writing
 ### Tags
 EMAIL WRITING,AI AGENT
 ### Reviews
-[wavel io Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/email-writing/pub-wavel-io/wavel-io)
+[wavel io Reviews Traffic and AI Agent Marketplace](https://www.deepnlp.org/store/ai-agent/email-writing/pub-wavel-io/wavel-io)
 ### Links
 https://wavel.io/ai-tools/hyperwrite-ai-agent/<br>
-http://www.deepnlp.org/store/ai-agent/email-writing/pub-wavel-io/wavel-io<br>
+https://www.deepnlp.org/store/ai-agent/email-writing/pub-wavel-io/wavel-io<br>
 
 </details>
 
