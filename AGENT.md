@@ -3593,6 +3593,29 @@ http://www.deepnlp.org/store/ai-agent/translation/pub-axtonliu-com/axtonliu-com<
 </details>
 
 # MARKETING AI AGENT
+## [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet)
+![thumbnail_picture](https://raw.githubusercontent.com/Xquik-dev/hermes-tweet/master/assets/icon.svg)
+
+Native Hermes Agent plugin for X/Twitter research, monitoring, and approval-gated actions through Xquik.
+<details>
+
+### Website
+https://github.com/Xquik-dev/hermes-tweet
+### Description
+Hermes Tweet gives Hermes Agent users a native X/Twitter toolset for read-first social research, account reads, trends, monitors, and explicit opt-in actions such as posting, replies, likes, retweets, follows, and DMs. It ships as the `hermes-tweet` Python package with a Hermes plugin entry point, bundled skill guidance, and source-native Claude/Codex metadata.
+### Category
+Marketing
+### Tags
+MARKETING,SOCIAL MEDIA,X,TWITTER,HERMES AGENT,AI AGENT,PLUGIN,AUTOMATION
+### Reviews
+https://github.com/Xquik-dev/hermes-tweet
+### Links
+https://github.com/Xquik-dev/hermes-tweet<br>
+https://pypi.org/project/hermes-tweet/<br>
+https://github.com/Xquik-dev/hermes-tweet#readme<br>
+
+</details>
+
 ## [influencer marketing hub](https://influencermarketinghub.com/ai-marketing-agencies/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.4c915044-787b-421e-8c54-fa1b9a84f32f&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2)
 
