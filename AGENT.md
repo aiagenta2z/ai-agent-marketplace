@@ -11760,7 +11760,7 @@ http://www.deepnlp.org/store/ai-agent/tool-libraries/pub-library-journal/library
 ## [FiatDock](https://fiatdock.com)
 ![thumbnail_picture](https://fiatdock.com/logo-400.png)
 
-Non-custodial USDC-to-bank on/off-ramp tool for AI agents: free quotes, $0.05 USDC per session via the x402 protocol, four MCP tools. Conversion, KYC and custody by Transak (a licensed provider) — FiatDock never holds funds.
+FiatDock is a non-custodial marketplace where AI agents discover and pay for MCP (Model Context Protocol) services per call in USDC via the x402 protocol on Base. Sellers list their MCP server for free and are paid directly to their own wallet (the platform's 1% fee is an atomic on-chain split; 0% for a seller's first 30 days). It also offers a non-custodial USDC↔bank on/off-ramp. FiatDock never holds funds.
 
 <details>
 
@@ -11768,19 +11768,20 @@ Non-custodial USDC-to-bank on/off-ramp tool for AI agents: free quotes, $0.05 US
 https://fiatdock.com
 
 ### Description
-FiatDock is a payments tool for AI agents (not an agent itself). It gives any MCP-capable agent four tools to move value between USDC and the owner's own bank account: get_quote (free, all fees itemised incl. the 1% commission), create_offramp_session and create_onramp_session ($0.05 USDC per call, paid automatically via the x402 protocol), and get_order_status (free). Strictly non-custodial: conversion, KYC and custody are handled by Transak, a licensed provider. Binding own-account rule: the sending wallet and the receiving bank account must belong to the same person — the agent's owner. 18+; Portugal + Transak-supported EU/EEA countries (not the UK). Install: npx fiatdock-mcp · remote MCP endpoint: https://fiatdock.com/mcp · official MCP Registry: com.fiatdock/fiatdock-mcp.
+FiatDock is a non-custodial MCP-services marketplace for AI agents. Agents use three MCP tools — search_services, get_service and call_service — to discover a service, read its details, and call it while paying per call in USDC over x402 (HTTP 402 → sign → retry; the fiatdock-mcp package pays automatically). Each paid call settles directly from the buyer's wallet to the seller's wallet on Base; FiatDock takes a 1% platform fee as an atomic on-chain split (0% for a seller's first 30 days) and never custodies, routes or aggregates funds. Sellers list for free, set a per-call price and keep 99% (100% during the launch window); Verified sellers pass a KYC + MCP-security scan. FiatDock also exposes a non-custodial USDC↔bank on/off-ramp (four ramp tools: get_quote, create_offramp_session, create_onramp_session, get_order_status — conversion, KYC and custody by a licensed provider under a binding own-account rule). Install: npx fiatdock-mcp · remote MCP endpoint: https://fiatdock.com/mcp · official MCP Registry: com.fiatdock/fiatdock-mcp.
 
 ### Category
 Tool Libraries
 
 ### Tags
-FINANCE,PAYMENTS,USDC,X402,MCP,OFFRAMP,ONRAMP,NON-CUSTODIAL,AI AGENT
+MCP MARKETPLACE,X402,AGENT PAYMENTS,AGENTIC COMMERCE,USDC,BASE,NON-CUSTODIAL,FINANCE,PAYMENTS,OFFRAMP,ONRAMP,AI AGENT
 
 ### Reviews
 https://fiatdock.com/faq.html
 
 ### Links
 https://fiatdock.com<br>
+https://fiatdock.com/mcp-marketplace.html<br>
 https://github.com/fiatdock/fiatdock<br>
 https://www.npmjs.com/package/fiatdock-mcp<br>
 
