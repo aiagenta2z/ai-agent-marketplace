@@ -28488,6 +28488,30 @@ http://www.deepnlp.org/store/ai-agent/coding-agent/pub-toprank-nowork-studio/top
 
 </details>
 
+## [NotFair nowork-studio](https://github.com/nowork-studio/NotFair)
+![thumbnail_picture](https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg)
+
+Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data through Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
+<details>
+
+### Website
+https://github.com/nowork-studio/NotFair
+### Description
+Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads. Skill areas: seo/ (site analysis, keyword research, meta tags, schema markup, GEO optimization, content writing), google-ads/ (audits, wasted-spend detection, keyword and bid management), meta-ads/ (ROAS, creative fatigue, audience overlap). Connects to live data through Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. MIT license, ~2.9k stars.
+### Category
+CODING AGENT
+### Tags
+CODING AGENT,AI AGENT,MARKETING,ADS,SEO,MCP
+### Reviews
+[NotFair nowork-studio Reviews Traffic and AI Agent Marketplace](http://www.deepnlp.org/store/ai-agent/coding-agent/pub-notfair-nowork-studio/notfair-nowork-studio)
+### Links
+https://github.com/nowork-studio/NotFair<br>
+https://github.com/nowork-studio/NotFair/tree/main/seo<br>
+https://github.com/nowork-studio/NotFair/tree/main/google-ads<br>
+https://github.com/nowork-studio/NotFair/tree/main/meta-ads<br>
+
+</details>
+
 # VIDEO GENERATOR AGENT AI AGENT
 ## [ai-video-generator davide97l](https://github.com/davide97l/ai-video-generator)
 ![thumbnail_picture](https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg)
