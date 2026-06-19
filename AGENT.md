@@ -35994,3 +35994,24 @@ https://blocklottos.com/openapi.json<br>
 https://blocklottos.com/affiliate<br>
 
 </details>
+
+
+# P2P NETWORK AI AGENT
+## [CodeAnt](https://github.com/Mr9669/ly-trinity-node-06111033)
+![thumbnail_picture](https://via.placeholder.com/200)
+
+Distributed P2P mesh networking agent enabling decentralized communication between AI agents. Features DHT-based peer discovery, GossipSub message propagation, Raft consensus, and privacy-preserving secure aggregation via Paillier homomorphic encryption. Pure Python, zero external dependencies.
+<details>
+
+### Website
+https://github.com/Mr9669/ly-trinity-node-06111033
+### Description
+CodeAnt is an open-source AI agent for decentralized P2P mesh networks. Eliminates centralized API servers: agents discover each other via Kademlia DHT, broadcast through GossipSub, reach consensus via Raft, and run privacy-preserving computations using Paillier homomorphic encryption. Pure Python, zero dependencies, runs on servers/Docker/edge workers.
+### Category
+P2P Network Agent
+### Tags
+P2P,DHT,GOSSIP,RAFT,MESH,DISTRIBUTED,AGENT,HOMOMORPHIC,PYTHON
+### Links
+https://github.com/Mr9669/ly-trinity-node-06111033<br>
+
+</details>
