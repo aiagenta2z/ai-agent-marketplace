@@ -32,6 +32,32 @@ https://github.com/xmacna/funcionario-digital-agentget<br>
 
 
 # BLOCKCHAIN PRIVACY AI AGENT
+## [400860 Radar Seller Repair](https://x402.400860.xyz/seller-repair?channel=ai-agent-marketplace-registry)
+![thumbnail_picture](https://x402.400860.xyz/favicon.ico)
+
+400860 Radar helps x402, MCP, and paid API sellers diagnose why public visibility, probes, or quotes do not become verified paid conversion.
+<details>
+
+### Website
+https://x402.400860.xyz/seller-repair?channel=ai-agent-marketplace-registry
+### Description
+400860 Radar Seller Repair is an agent-readable x402 service for sellers who already have an exposed x402, MCP, or paid API endpoint but no verified non-self revenue. A seller pastes their service URL, runs a free preflight to inspect quote readiness and buyer drop-off risk, then can buy a $0.01 x402 repair pack that returns exact metadata patches, ranked blockers, a clean buyer replay script, and revenue verification rules. Payment uses x402 exact USDC on Base with no account, API key, KYC, or private-key upload.
+### Category
+Blockchain Payments
+### Tags
+X402,MCP,AI AGENT,AGENT PAYMENTS,BASE USDC,SELLER REPAIR,API MONETIZATION,PAID MCP
+### Reviews
+https://api.400860.xyz/v1/revenue/24h
+### Links
+https://x402.400860.xyz/seller-repair?channel=ai-agent-marketplace-registry<br>
+https://x402.400860.xyz/mcp-directory.json<br>
+https://x402.400860.xyz/server.json<br>
+https://x402.400860.xyz/openapi.json<br>
+https://x402.400860.xyz/pricing.json<br>
+https://x402.400860.xyz/.well-known/x402.json<br>
+
+</details>
+
 ## [SNAP Protocol](https://agentzeny.ai)
 
 Private agent-to-agent payments on Solana mainnet using Groth16 zero-knowledge proofs. SNAP lets AI agents pay each other without on-chain observers learning who paid whom. Deposit SOL or USDC into shielded pools, send a secret note off-chain, and withdraw anonymously with a ZK proof.
