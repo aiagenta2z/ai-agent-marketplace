@@ -22367,6 +22367,29 @@ http://www.deepnlp.org/store/ai-agent/image-generator-agent/pub-langchain_llm_ag
 </details>
 
 # AI AGENT MEMORY AI AGENT
+## [Tree Ring Memory TerminallyLazy](https://github.com/TerminallyLazy/Tree-Ring-Memory)
+![thumbnail_picture](https://raw.githubusercontent.com/TerminallyLazy/Tree-Ring-Memory/main/assets/tree-ring-memory-logo.png)
+
+Local-first memory lifecycle framework for AI agents with a Rust CLI/TUI, SQLite/FTS recall, audit trails, forgetting, and deterministic consolidation.
+<details>
+
+### Website
+https://github.com/TerminallyLazy/Tree-Ring-Memory
+### Description
+Tree Ring Memory is an open-source memory lifecycle layer for AI agents and coding assistants. It keeps agent memory local by default, stores records in SQLite with FTS recall, supports audit and forgetting workflows, and provides CLI/TUI surfaces plus portable skill and plugin wrappers for Claude Code, Codex, and related agent harnesses.
+### Category
+AI AGENT MEMORY
+### Tags
+AI AGENT MEMORY,AI AGENT,TOOL LIBRARIES,CODING AGENT,CLI
+### Reviews
+https://github.com/TerminallyLazy/Tree-Ring-Memory/issues/26
+### Links
+https://terminallylazy.github.io/Tree-Ring-Memory/<br>
+https://github.com/TerminallyLazy/Tree-Ring-Memory<br>
+https://github.com/TerminallyLazy/tree-ring-memory-media-kit<br>
+
+</details>
+
 ## [phidata phidatahq](https://github.com/phidatahq/phidata)
 ![thumbnail_picture](https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg)
 
