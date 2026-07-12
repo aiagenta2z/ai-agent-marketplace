@@ -9838,6 +9838,30 @@ http://www.deepnlp.org/store/ai-agent/coding-agent/pub-visual-studio-marketplace
 </details>
 
 # ASSISTANT AI AGENT
+## [CorvinOS](https://github.com/CorvinLabs/CorvinOS)
+![thumbnail_picture](https://raw.githubusercontent.com/CorvinLabs/CorvinOS/main/docs/assets/banner.svg)
+
+CorvinOS is a self-hosted, open-source agentic OS that connects Claude Code, Codex, Hermes, Ollama, and any OpenRouter model to Discord, Telegram, WhatsApp, Slack, Email, Teams, and Signal through a single pip package. It runs fully offline with local Ollama models and enforces EU AI Act 2026 and GDPR compliance in the architecture itself, not just policy — including a hash-chained audit log, per-user consent gates, and one-time bot disclosure.
+
+<details>
+
+### Website
+https://corvin-labs.com
+### Description
+CorvinOS is a self-hosted agentic OS that connects local (Ollama) and cloud AI engines (Claude Code, Codex, Hermes, Copilot) to messaging platforms including Discord, Telegram, WhatsApp, Slack, Email, Teams, and Signal. It is local-first (100% offline capable, no API key required), multi-tenant (isolated users/personas/teams on one instance), and agentic (generates sandboxed tools and skills at runtime, delegates subtasks across engines). Compliance is structural: EU AI Act 2026 bot-disclosure, GDPR Art. 6/7/17/30/32 (hash-chained audit log, consent gates, erasure orchestrator) are enforced in code. Named "Best Agentic AI Platform 2026" by agentic.ai. Apache-2.0 licensed.
+### Category
+Assistant
+### Tags
+ASSISTANT,AI AGENT,SELF-HOSTED,OPEN SOURCE,GDPR,EU AI ACT,COMPLIANCE,OLLAMA,DISCORD,TELEGRAM,WHATSAPP,SLACK,AGENTIC OS
+### Reviews
+https://agentic.ai/best/agentic-ai-platforms
+### Links
+https://corvin-labs.com<br>
+https://github.com/CorvinLabs/CorvinOS<br>
+https://pypi.org/project/corvinos/<br>
+
+</details>
+
 ## [lindy ai](https://www.lindy.ai/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&w=32&h=32&qlt=92&pcl=fffffc&o=6&pid=1.2)
 
