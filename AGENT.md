@@ -1806,6 +1806,37 @@ http://www.deepnlp.org/store/ai-agent/ai-agent-memory/pub-deeplearning-ai/deeple
 </details>
 
 # SALES AI AGENT
+## [OutreachAgent](https://outreachagent.dev/for-agents)
+![thumbnail_picture](https://outreachagent.dev/og-image.png)
+
+Outbound email execution infrastructure for AI agents with reply-aware workflows, inboxes, webhooks, pacing, approvals, and delivery observability.
+
+<details>
+
+### Website
+https://outreachagent.dev/for-agents
+
+### Description
+OutreachAgent provides a REST API and public TypeScript SDK for AI runtimes to create inboxes, send and receive email, run multi-step sequences, stop on replies, bounces, or unsubscribes, enforce sender limits and approval policies, and route signed webhook events back to the agent runtime. The public OpenAPI specification and LLM context document the integration surface.
+
+### Category
+Sales
+
+### Tags
+SALES,OUTBOUND EMAIL,COLD EMAIL,EMAIL API,AI AGENT INFRASTRUCTURE,REPLY HANDLING,WEBHOOKS,WORKFLOWS,DELIVERABILITY
+
+### Reviews
+https://www.clawsites.com/site/outreachagent
+
+### Links
+https://outreachagent.dev/for-agents<br>
+https://outreachagent.dev/docs/introduction<br>
+https://api.outreachagent.dev/v1/openapi.json<br>
+https://www.npmjs.com/package/@outreachagent/sdk-ts<br>
+https://outreachagent.dev/llms-full.txt<br>
+
+</details>
+
 ## [salescloser ai](https://salescloser.ai/)
 ![thumbnail_picture](https://salescloser.ai/wp-content/uploads/2024/01/favicon-png2.png)
 
