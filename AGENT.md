@@ -36162,3 +36162,33 @@ P2P,DHT,GOSSIP,RAFT,MESH,DISTRIBUTED,AGENT,HOMOMORPHIC,PYTHON
 https://github.com/Mr9669/ly-trinity-node-06111033<br>
 
 </details>
+
+# DEZIFI
+## [Dezifi](https://dezifi.ai)
+![thumbnail_picture](https://dezifi.ai/opengraph-image)
+
+Dezifi is an enterprise AI agent platform for teams that need production execution, not demos: build agents in a visual 9-step builder or in code (TypeScript/Java/Python via the DAK infrastructure-as-code SDK), orchestrate multi-agent workflows, enforce policy-as-code and runtime guardrails, and observe every run — connected to 140+ enterprise integrations, multi-tenant from the first session.
+
+<details>
+
+### Website
+https://dezifi.ai
+
+### Description
+Dezifi is the control plane for production-grade enterprise AI agents. Teams design agents in a visual builder (model, tools, skills, knowledge bases, memory, guardrails), compose them into DAG, map-reduce, and manager-worker workflows with human approval steps, and govern every action with policy-as-code: tool-level allow/deny, execution limits, per-end-user quotas, and audit trails with reasoning included. Runtime guardrails (prompt-injection blocking, PII scanning with per-category policies, topic restriction, grounding checks) run inside the execution path, so a blocked action never reaches the target system. Ships 140+ pre-built integrations (Salesforce, Jira, Slack, GitHub, ServiceNow, Postgres, Snowflake and more), evaluation with CI quality gates, and full run observability. Agents are reachable via widget, Slack, email, MCP, CLI, and webhook.
+
+### Category
+AI Agent Platform
+
+### Tags
+AI AGENT PLATFORM,ENTERPRISE,AI GOVERNANCE,GUARDRAILS,MULTI-AGENT,WORKFLOW,AI AGENT
+
+### Reviews
+https://www.linkedin.com/company/dezifi-ai
+
+### Links
+https://dezifi.ai<br>
+https://dezifi.ai/docs<br>
+https://github.com/dezifi-ai/dezifi-examples<br>
+
+</details>
