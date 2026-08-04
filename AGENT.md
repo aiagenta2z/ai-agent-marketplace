@@ -9869,6 +9869,28 @@ http://www.deepnlp.org/store/ai-agent/coding-agent/pub-visual-studio-marketplace
 </details>
 
 # ASSISTANT AI AGENT
+## [Orkas](https://github.com/Orkas-AI/Orkas)
+![thumbnail_picture](https://raw.githubusercontent.com/Orkas-AI/Orkas/main/src/resources/icons/logo.png)
+
+Orkas is an open-source, local-first desktop workspace where one Commander coordinates a team of specialized AI agents in parallel or in series through a single conversation.
+
+<details>
+
+### Website
+https://github.com/Orkas-AI/Orkas
+### Description
+Orkas is a cross-platform multi-agent desktop client for knowledge work and development. A Commander delegates work to specialized agents, while users keep control of their workspace and bring their own supported model-provider keys or local model endpoint.
+### Category
+Assistant
+### Tags
+ASSISTANT,AI AGENT,DESKTOP,MULTI-AGENT,OPEN SOURCE,LOCAL-FIRST,PRODUCTIVITY
+### Reviews
+https://github.com/Orkas-AI/Orkas
+### Links
+https://github.com/Orkas-AI/Orkas<br>
+
+</details>
+
 ## [CorvinOS](https://github.com/CorvinLabs/CorvinOS)
 ![thumbnail_picture](https://raw.githubusercontent.com/CorvinLabs/CorvinOS/main/docs/assets/banner.svg)
 
