@@ -11681,6 +11681,36 @@ http://www.deepnlp.org/store/ai-agent/law/pub-camel-ai-org/camel-ai-org<br>
 </details>
 
 # TOOL LIBRARIES AI AGENT
+## [ArgonautWorks Accountless Agent Utilities](https://argonautworks.github.io/product-catalog/)
+![thumbnail_picture](https://avatars.githubusercontent.com/u/312591046?v=4)
+
+ArgonautWorks provides twelve pay-per-call utilities for autonomous agents with Base USDC x402 settlement and no buyer account. The catalog covers public web-page reading, source-linked crypto headlines, Base token momentum and lookup, U.S. weather, ECB FX, scheduling, bounty verification, product images, and Devpost audits. Selected tools include free samples and copy-ready AgentCash commands.
+
+<details>
+
+### Website
+https://argonautworks.github.io/product-catalog/
+
+### Description
+ArgonautWorks is a machine-readable catalog of twelve accountless agent utilities. Buyers can preview selected outputs, inspect public source and limitations, then call paid APIs directly with explicit AgentCash maximum-payment caps. Products publish agent-oriented discovery metadata and settle per request in Base USDC through x402 without subscriptions or buyer accounts.
+
+### Category
+Tool Libraries
+
+### Tags
+X402,AGENTCASH,A2A,API TOOLS,BASE,USDC,ACCOUNTLESS,MARKET DATA,PRODUCTIVITY,AI AGENT
+
+### Reviews
+https://github.com/ArgonautWorks/product-catalog
+
+### Links
+https://argonautworks.github.io/product-catalog/<br>
+https://argonautworks.github.io/product-catalog/catalog.json<br>
+https://argonautworks.github.io/product-catalog/llms.txt<br>
+https://github.com/ArgonautWorks/product-catalog<br>
+
+</details>
+
 ## [azalio io](https://www.azalio.io/browser-use-an-open-source-ai-agent-to-automate-web-based-tasks/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&w=32&h=32&qlt=92&pcl=fffffa&o=6&pid=1.2)
 
