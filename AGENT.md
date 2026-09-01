@@ -36244,3 +36244,33 @@ https://dezifi.ai/docs<br>
 https://github.com/dezifi-ai/dezifi-examples<br>
 
 </details>
+# SANDBASE_HARNESS
+## [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)
+![SandBase Harness](https://github.com/sandbaseai.png)
+
+SandBase Harness is a local-first, self-hosted AI agent runtime and MCP bridge for sandboxed sessions, memory, credentials, audit/replay, and a local Console.
+
+<details>
+
+### Website
+https://github.com/sandbaseai/sandbase-harness
+
+### Description
+SandBase Harness provides a self-hosted runtime for AI-agent workloads. The project includes sandboxed sessions, persistent memory, credential handling, audit and replay workflows, a local Console, and an MCP bridge. See the official installation and MCP documentation for supported deployment and integration paths.
+
+### Category
+AI Infrastructure / Coding Agents / MCP Servers
+
+### Tags
+AI AGENT RUNTIME,MCP,SELF-HOSTED,SANDBOX,AUDIT,CODING AGENT
+
+### Reviews
+https://github.com/sandbaseai/sandbase-harness/issues
+
+### Links
+https://github.com/sandbaseai/sandbase-harness<br>
+https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md<br>
+https://github.com/sandbaseai/sandbase-harness/blob/main/docs/mcp-server.md<br>
+https://github.com/sandbaseai/sandbase-harness/blob/main/docs/deployment.md<br>
+
+</details>
