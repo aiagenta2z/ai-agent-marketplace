@@ -36274,3 +36274,30 @@ https://github.com/sandbaseai/sandbase-harness/blob/main/docs/mcp-server.md<br>
 https://github.com/sandbaseai/sandbase-harness/blob/main/docs/deployment.md<br>
 
 </details>
+
+# PRACHUB
+## [PracHub](https://prachub.com/)
+![PracHub](https://prachub.com/icon.png?v=20260103)
+
+PracHub is a technical interview practice platform with 10,000+ candidate-reported questions from 450+ companies, covering coding, system design, machine learning, SQL, and behavioral interviews.
+
+<details>
+
+### Website
+https://prachub.com/
+
+### Description
+PracHub organizes real interview questions by company, role, and topic. Candidates can study clear solutions, trade-offs, and follow-up questions, then use focused collections for ML system design, system design, coding, SQL, and behavioral interview preparation.
+
+### Category
+Education
+
+### Tags
+EDUCATION,INTERVIEW PREPARATION,CODING PRACTICE,SYSTEM DESIGN,ML SYSTEM DESIGN,SOFTWARE ENGINEERING
+
+### Links
+https://prachub.com/<br>
+https://prachub.com/categories/ml-system-design<br>
+https://prachub.com/categories/system-design<br>
+
+</details>
