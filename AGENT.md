@@ -30,6 +30,34 @@ https://github.com/xmacna/funcionario-digital-agentget<br>
 
 </details>
 
+# BULKPUBLISH SOCIAL MEDIA AGENT
+## [BulkPublish Social Media Agent](https://app.bulkpublish.com)
+
+BulkPublish helps AI agents plan, adapt, review, schedule, and publish social media content across connected accounts. Its reusable social-media skills and batch-oriented API/MCP workflow keep users in control with previews, explicit confirmation, and per-item results.
+
+<details>
+
+### Website
+https://app.bulkpublish.com
+
+### Description
+The BulkPublish Social Media Agent combines reusable planning, content adaptation, review, scheduling, and publishing skills with BulkPublish's API and MCP integrations. It is designed for approved batches across connected social accounts and provides an advisory fallback when the integration is unavailable.
+
+### Category
+Marketing / Social Media / AI Agents
+
+### Tags
+SOCIAL MEDIA,CONTENT,MARKETING,SCHEDULING,PUBLISHING,BATCH,API,MCP,BULKPUBLISH
+
+### Links
+https://app.bulkpublish.com/<br>
+https://app.bulkpublish.com/docs<br>
+https://github.com/azeemkafridi/bulkpublish-api<br>
+https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills<br>
+https://mcp.bulkpublish.com/mcp<br>
+
+</details>
+
 
 # BLOCKCHAIN PRIVACY AI AGENT
 ## [SNAP Protocol](https://agentzeny.ai)
