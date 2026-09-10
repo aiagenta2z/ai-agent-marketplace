@@ -36329,3 +36329,30 @@ https://prachub.com/categories/ml-system-design<br>
 https://prachub.com/categories/system-design<br>
 
 </details>
+
+# YYLO
+## [YYLO](https://github.com/yylo-dev/yylo)
+![YYLO](https://raw.githubusercontent.com/yylo-dev/yylo/main/assets/yylo-logo-square-neon-green.png)
+
+YYLO is a command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, with typed task, validation, merge, and release-readiness boundaries.
+
+<details>
+
+### Website
+https://github.com/yylo-dev/yylo
+
+### Description
+YYLO orchestrates coding agents from the command line. Task start freezes the protected target SHA and creates a dedicated branch/worktree; the merge queue owns risk-based review, with low risk taking no semantic reviewer and high risk two sequential reviewers. It runs subagents including Pi and Codex, installs from npm as @yylo/cli, and is MIT licensed.
+
+### Category
+Coding Agents / Agent Orchestration / Developer Tools
+
+### Tags
+AI AGENT,CODING AGENT,ORCHESTRATOR,CLI,WORKTREE,MERGE QUEUE,DEVELOPER TOOLS
+
+### Links
+https://github.com/yylo-dev/yylo<br>
+https://github.com/yylo-dev<br>
+https://www.npmjs.com/package/@yylo/cli<br>
+
+</details>
