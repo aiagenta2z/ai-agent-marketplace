@@ -6,6 +6,35 @@
 - [BENCHMARK AI Agent](#benchmark-ai-agent)
 
 
+## [ModelRush](https://modelrush.ai)
+![ModelRush logo](https://modelrush.ai/icons/modelrush-512.png)
+
+Hosted model API infrastructure for developers building AI applications and agents; not an autonomous agent or MCP server.
+
+<details>
+
+### Website
+https://modelrush.ai
+
+### Description
+ModelRush is a proprietary hosted gateway for text, image, video, and voice models. Chat is OpenAI-compatible; media endpoints are model-specific. Access uses prepaid usage-based API credits with no ongoing free tier or trial. The service includes an age-restricted Spicy catalog. API keys should remain server-side.
+
+### Category
+API Infrastructure
+
+### Tags
+API GATEWAY,DEVELOPER TOOLS,TEXT,IMAGE,VIDEO,VOICE
+
+### Reviews
+No independent review link supplied.
+
+### Links
+https://modelrush.ai/docs<br>
+https://modelrush.ai/pricing<br>
+https://github.com/Moonveil-AI/modelrush-developer-tools<br>
+
+</details>
+
 # BUSINESS WORKFLOW AI AGENT
 ## [XMACNA Funcionarios Digitais](https://xmacna.github.io/funcionarios-digitais-com-ia/)
 ![thumbnail_picture](https://xmacna.github.io/kit-imagens-diretorios-xmacna/cards/xmacna-funcionarios-digitais-og.png)
