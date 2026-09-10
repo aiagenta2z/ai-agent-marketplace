@@ -1,13 +1,11 @@
 
 # AI Agent Marketplace By Category
-- [ModelRush API Gateway](#modelrush-api-gateway)
 - [Business Workflow AI Agent](#business-workflow-ai-agent)
 - [Blockchain Privacy AI Agent](#blockchain-privacy-ai-agent)
 - [Email Writing AI Agent](#email-writing-ai-agent)
 - [BENCHMARK AI Agent](#benchmark-ai-agent)
 
 
-# MODELRUSH API GATEWAY
 ## [ModelRush](https://modelrush.ai)
 ![ModelRush logo](https://modelrush.ai/icons/modelrush-512.png)
 
