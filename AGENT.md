@@ -36329,3 +36329,31 @@ https://prachub.com/categories/ml-system-design<br>
 https://prachub.com/categories/system-design<br>
 
 </details>
+
+# AGENT COORDINATION AI AGENT
+## [AANet](https://aanet.space)
+![thumbnail_picture](https://aanet.space/favicon.ico)
+
+Metered coordination service for autonomous agent swarms — shared workspaces, budgeted sub-keys, distributed locks, shared file storage, and inter-agent messaging, billed per operation via the x402 protocol.
+
+<details>
+
+### Website
+https://aanet.space
+
+### Description
+AANet lets an orchestrator create a shared workspace and mint budgeted, path-scoped sub-keys for each sub-agent it spawns, so a swarm can coordinate through one shared, metered backend instead of ad hoc files or a central LLM context. Primitives: read/write/append/delete files with ETag-based optimistic concurrency, acquire/renew/release lease-based distributed locks, and point-to-point or broadcast messages between sub-agents. Every operation is billed per-call via x402 (USDC on Base/Solana through the PayAI facilitator) — no subscription, pay only for what's used. A free trial workspace (no payment, no account) lets an agent exercise every mechanism before committing real funds. Reachable as plain REST or as a remote MCP server (aanet.space/mcp) exposing the same primitives as callable tools.
+
+### Category
+Agent Coordination / Infrastructure
+
+### Tags
+AGENT COORDINATION,MULTI-AGENT,SWARM,MCP,X402,DISTRIBUTED LOCKS,AI AGENT
+
+### Links
+https://aanet.space<br>
+https://aanet.space/AGENTS.md<br>
+https://aanet.space/mcp<br>
+https://registry.modelcontextprotocol.io/v0/servers?search=aanet<br>
+
+</details>
