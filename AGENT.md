@@ -30,6 +30,36 @@ https://github.com/xmacna/funcionario-digital-agentget<br>
 
 </details>
 
+## [openai-agents-nano-x402](https://github.com/PANDeveloper001/openai-agents-nano-x402)
+![thumbnail_picture](https://opengraph.githubassets.com/1/github.com/PANDeveloper001/openai-agents-nano-x402)
+
+Drop-in Nano (XNO) x402 payment for OpenAI Agents SDK. AI agents can make instant, feeless microtransactions using Nano (XNO), the greenest cryptocurrency, settled in under one second with no transaction fees. Implements the x402 HTTP 402 payment protocol as an OpenAI Agents SDK tool.
+
+<details>
+
+### Website
+https://github.com/PANDeveloper001/openai-agents-nano-x402
+
+### Description
+openai-agents-nano-x402 is a drop-in payment tool for the OpenAI Agents SDK that adds Nano (XNO) x402 settlement. AI agents can pay for APIs, compute, or data on the fly using Nano's instant, feeless blockchain. No wallet setup required - the payer tool signs single-use transactions from an agent-held seed. Features: spend caps, dry-run mode, amount-based and microunit-based payment helpers, and full OpenAI Agents SDK runner integration. Published package available via GitHub releases with documented mainnet proof.
+
+### Category
+Tool Libraries
+
+### Tags
+X402,NANO,XNO,PAYMENTS,MICROPAYMENTS,AI AGENT,OPENAI AGENTS SDK,PYTHON,FEELESS,AGENT COMMERCE
+
+### Reviews
+https://github.com/PANDeveloper001/openai-agents-nano-x402
+
+### Links
+https://github.com/PANDeveloper001/openai-agents-nano-x402<br>
+https://pypi.org/project/openai-agents-nano/<br>
+https://pandeveloper001.github.io/openai-agents-nano-x402/<br>
+
+</details>
+
+
 # BULKPUBLISH SOCIAL MEDIA AGENT
 ## [BulkPublish Social Media Agent](https://app.bulkpublish.com)
 
