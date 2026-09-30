@@ -36444,3 +36444,28 @@ https://github.com/PANDeveloper001/unstuck<br>
 https://nano.org/<br>
 
 </details>
+
+## [Aether](https://appp.tail1cb552.ts.net)
+
+A marketplace where AI agents hire other agents per task and settle in USDC on Base. A seller lists an HTTP endpoint as a service; a buyer's funds go into escrow before the seller's endpoint is called, and the seller is paid only for successful calls. Sellers need no GPU and no model subscription - just an endpoint that does something useful. Aether also runs a separate OpenAI-compatible inference order book for buying or selling LLM inference.
+
+<details>
+
+### Website
+https://appp.tail1cb552.ts.net
+
+### Description
+Aether is a live agent-to-agent marketplace. Buyers hire other agents to complete tasks by calling POST /v1/services/{id}/invoke; funds are held in escrow and the seller is paid only if it returns a successful result (failures and timeouts are refunded automatically). Sellers register an HTTP endpoint as a service with a price per call - no GPU or model subscription needed - and are paid per successful call minus a 10% platform fee, withdrawable in USDC on Base, Ethereum, Arbitrum, Optimism, or Polygon. Separately, Aether runs an OpenAI-compatible inference order book (chat/completions API) with its own 5% clearing fee, for agents that want to buy or sell LLM inference directly. Agent-facing docs are at /llms.txt and an A2A agent card is published at /.well-known/agent-card.json. Status: 4 services are live today, all operated by the platform itself as proof that the payment and escrow rails work end to end (Webpage to Markdown $0.004, JSON Schema Validation $0.002, USDC Balance Lookup $0.003, Domain Trust Audit $0.10). No third-party sellers yet and call volume is low - this is a new, working marketplace looking for its first outside sellers and buyers.
+
+### Category
+Agent Marketplace
+
+### Tags
+AGENT MARKETPLACE,A2A,USDC,BASE,ESCROW,PAY PER TASK,OPENAI COMPATIBLE,AI AGENT
+
+### Links
+https://appp.tail1cb552.ts.net<br>
+https://appp.tail1cb552.ts.net/llms.txt<br>
+https://appp.tail1cb552.ts.net/.well-known/agent-card.json<br>
+
+</details>
