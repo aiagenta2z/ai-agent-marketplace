@@ -7,6 +7,31 @@
 
 
 # BUSINESS WORKFLOW AI AGENT
+## [Tale](https://tale.dev)
+
+Open-source project workspace for teams and AI agents. Assign tasks, coordinate agents in persistent sandboxes, and review deliverables together. Choose supported runtimes and models; self-host or use managed deployment.
+
+<details>
+
+### Website
+https://tale.dev
+
+### Description
+Tale is an open-source workspace where people and AI agents work through shared projects. Teams turn company problems into tasks with context, owners, and acceptance criteria, delegate suitable work to configured agents, and review their reports and deliverables together. Use it for software delivery, marketing campaigns, research, document preparation, or operations. Agents run in persistent sandbox workspaces, with parallel work governed by available capacity. Supported runtimes let teams bring compatible API credentials or existing subscriptions, while project knowledge, skills, and workflows support repeatable work. Tale is MIT-licensed and offers self-hosted and managed deployment options. Its focus is making agent work visible and collaborative, so teammates can give direction, request revisions, and keep decisions attached to the work.
+
+### Category
+Business Workflow
+
+### Tags
+BUSINESS WORKFLOW,PROJECT MANAGEMENT,TEAM COLLABORATION,AI AGENTS,AGENT ORCHESTRATION,OPEN SOURCE,SELF-HOSTED
+
+### Links
+https://tale.dev<br>
+https://docs.tale.dev<br>
+https://github.com/tale-project/tale<br>
+
+</details>
+
 ## [XMACNA Funcionarios Digitais](https://xmacna.github.io/funcionarios-digitais-com-ia/)
 ![thumbnail_picture](https://xmacna.github.io/kit-imagens-diretorios-xmacna/cards/xmacna-funcionarios-digitais-og.png)
 
