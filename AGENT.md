@@ -7084,6 +7084,7 @@ http://www.deepnlp.org/store/ai-agent/research/pub-wiley-online-library/wiley-on
 
 # FINANCE AI AGENT
 ## [Equibles](https://equibles.com)
+![thumbnail_picture](https://equibles.com/images/og-default.png)
 
 Stock market data for AI agents: a remote MCP server for ChatGPT, Claude and other MCP clients, plus a REST API, covering US company fundamentals from SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades.
 
@@ -7093,7 +7094,7 @@ Stock market data for AI agents: a remote MCP server for ChatGPT, Claude and oth
 https://equibles.com
 
 ### Description
-Equibles gives AI agents and investors structured access to US public-company data. Its remote MCP server (https://mcp.equibles.com/mcp, OAuth sign-in) works in ChatGPT, Claude and other MCP clients, and the same data is available through a REST API. Coverage includes financial statements and individual XBRL facts from SEC filings, each returned with its period, form, filed date and accession number, search over SEC filing text, earnings-call transcripts, 13F institutional holdings, insider and congressional trades, short interest and end-of-day prices. A free plan includes 100 requests a day. The core is open source (AGPL-3.0) and can be self-hosted.
+Equibles gives AI agents and investors structured access to US public-company data. Its remote MCP server (https://mcp.equibles.com/mcp, OAuth sign-in) works in ChatGPT, Claude and other MCP clients, and the same data is available through a REST API. Coverage includes financial statements and individual XBRL facts from SEC filings with the period, form and filing date of each figure, search over SEC filing text, earnings-call transcripts, 13F institutional holdings, insider and congressional trades, short interest and end-of-day prices. A free plan includes 100 requests a day. The core is open source (AGPL-3.0) and can be self-hosted.
 
 ### Category
 Finance
