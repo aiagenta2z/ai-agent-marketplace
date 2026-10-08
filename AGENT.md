@@ -7083,6 +7083,31 @@ http://www.deepnlp.org/store/ai-agent/research/pub-wiley-online-library/wiley-on
 </details>
 
 # FINANCE AI AGENT
+## [Equibles](https://equibles.com)
+
+Stock market data for AI agents: a remote MCP server for ChatGPT, Claude and other MCP clients, plus a REST API, covering US company fundamentals from SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades.
+
+<details>
+
+### Website
+https://equibles.com
+
+### Description
+Equibles gives AI agents and investors structured access to US public-company data. Its remote MCP server (https://mcp.equibles.com/mcp, OAuth sign-in) works in ChatGPT, Claude and other MCP clients, and the same data is available through a REST API. Coverage includes financial statements and individual XBRL facts from SEC filings, each returned with its period, form, filed date and accession number, search over SEC filing text, earnings-call transcripts, 13F institutional holdings, insider and congressional trades, short interest and end-of-day prices. A free plan includes 100 requests a day. The core is open source (AGPL-3.0) and can be self-hosted.
+
+### Category
+Finance
+
+### Tags
+FINANCE,STOCK MARKET,FINANCIAL DATA,SEC FILINGS,MCP,AI AGENT
+
+### Links
+https://equibles.com<br>
+https://equibles.com/mcp<br>
+https://github.com/daniel3303/Equibles<br>
+
+</details>
+
 ## [solulab com](https://www.solulab.com/ai-agents-for-finance/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODF.43qjbirtIlGukjZ04hVR1w&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2)
 
