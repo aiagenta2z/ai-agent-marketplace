@@ -6774,6 +6774,32 @@ http://www.deepnlp.org/store/ai-agent/data-analysis/pub-dev-community/dev-commun
 </details>
 
 # RESEARCH AI AGENT
+## [Arcmira: YouTube Transcript Search](https://arcmira.com)
+
+Search indexed YouTube transcripts for timestamped passages and source links through an API or authenticated MCP connection.
+
+<details>
+
+### Website
+https://arcmira.com
+
+### Description
+Arcmira provides transcript search, speaker-appearance research, entity mentions, sponsors and recommendations for AI-assisted research. Results cover indexed material and retain source links and timestamps. An account is required; limited free access and paid plans are available, with feature access depending on the plan.
+
+### Category
+Research
+
+### Tags
+RESEARCH,YOUTUBE,TRANSCRIPT SEARCH,API,MCP
+
+### Links
+https://arcmira.com<br>
+https://arcmira.com/docs<br>
+https://arcmira.com/docs/mcp-server<br>
+https://github.com/arcmira/mcp<br>
+
+</details>
+
 ## [kurationai com](https://www.kurationai.com/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&w=32&h=32&qlt=93&pcl=fffffa&o=6&pid=1.2)
 
