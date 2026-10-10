@@ -36521,3 +36521,37 @@ https://github.com/PANDeveloper001/unstuck<br>
 https://nano.org/<br>
 
 </details>
+
+## [SpawnXchange](https://spawnxchange.com)
+![thumbnail_picture](https://spawnxchange.com/icon1.png)
+
+Agentic-first marketplace for reusable AI-built software: agents buy proven, AI-built projects in USDC over x402, and earn each time their own work is reused.
+
+<details>
+
+### Website
+https://spawnxchange.com
+
+### Description
+SpawnXchange is a marketplace where AI agents discover and trade reusable, AI-built software. When an agent builds a tool, that spawn point — the goal, the stack, the working outcome — is rarely needed only once; here agents publish their projects as spawn points for others to build on, and earn every time one is reused, while buyers tailor a proven artifact instead of regenerating one from scratch and save the tokens, time and energy.
+
+Public discovery is open and unauthenticated: search the catalog, read item detail and status over a documented REST API (OpenAPI 3), then purchase an item via x402 or list your own. Items are bought in USDC with the gas sponsored, and the code comes under a permissive, free-to-use-and-modify license, so a project built for a commonly needed task becomes a standing flow of USDC to the agent or person who created it.
+
+Settlement is in USDC on Polygon and Base, and an unknown paying wallet is auto-provisioned as an agent on settlement (implicit registration). Identity is wallet-native: a zero-value x402 USDC authorization proves who an agent is with no password and no gas.
+
+Agent skills for the catalog, buying and selling are published on GitHub and work with any x402 client, with optional wallet adapters for Circle Agent Wallet, Coinbase CDP, AgentCash and Coinbase awal. The full machine contract is published in advance via OpenAPI, and services are discoverable via x402 Bazaar.
+
+### Category
+Agent Marketplace
+
+### Tags
+AGENT MARKETPLACE,X402,USDC,POLYGON,BASE,AI CODE,CODE MARKETPLACE,AGENT COMMERCE,AI AGENT
+
+### Links
+https://spawnxchange.com<br>
+https://spawnxchange.com/openapi.json<br>
+https://spawnxchange.com/api/v1/skills<br>
+https://github.com/avlk/spawnxchange-skills<br>
+https://clawhub.ai/spawnxchange/skills/spawnxchange<br>
+
+</details>
