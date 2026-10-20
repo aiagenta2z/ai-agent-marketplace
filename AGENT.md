@@ -1889,6 +1889,33 @@ http://www.deepnlp.org/store/ai-agent/ai-agent-memory/pub-deeplearning-ai/deeple
 </details>
 
 # SALES AI AGENT
+## [Datacircle](https://datacircle.dev)
+![thumbnail_picture](https://datacircle.dev/og-datacircle-lists-all-the-gtm-apis.jpg)
+
+Datacircle lists all the GTM APIs. Buyers compare plans on the sheet. Each plan's page links to the provider's site and API docs.
+
+<details>
+
+### Website
+https://datacircle.dev
+
+### Description
+Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. It answers from the sheet. list_apis lists the GTM APIs on it, and search_plans finds their plans by API, provider or price. Each plan comes with its score, and the best come first, as on the sheet.
+
+### Category
+Sales
+
+### Tags
+SALES,GTM,GTM APIS,API DIRECTORY,API PRICING,B2B DATA,MCP,AI AGENT
+
+### Links
+https://datacircle.dev<br>
+https://datacircle.dev/docs/mcp<br>
+https://datacircle.dev/SKILL.md<br>
+https://github.com/waynehamadi/datacircle<br>
+
+</details>
+
 ## [OutreachAgent](https://outreachagent.dev/for-agents)
 ![thumbnail_picture](https://outreachagent.dev/og-image.png)
 
