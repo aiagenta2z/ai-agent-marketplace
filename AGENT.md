@@ -8266,6 +8266,30 @@ http://www.deepnlp.org/store/ai-agent/software-testing/pub-artificial-intelligen
 </details>
 
 # AI AGENT PLATFORM AI AGENT
+## [AgentSandboxes](https://agentsandboxes.fyi)
+
+A neutral index of cloud sandbox providers for AI agents, queryable through a free REST API and a hosted MCP endpoint.
+
+<details>
+
+### Website
+https://agentsandboxes.fyi
+
+### Description
+AgentSandboxes is a read-only index of cloud sandbox providers for AI agents. It lists providers by category - code execution, dev environments, open source, browser sessions, computer use, evals and RL - with isolation, cold start, persistence, GPU, pricing and free-tier facts, each linked to the vendor's own docs. The index is free: a keyless REST API (OpenAPI spec at https://agentsandboxes.fyi/api/v1/openapi.json) and a hosted Streamable HTTP MCP endpoint (https://agentsandboxes.fyi/mcp) let agents search and compare providers with no sign-in.
+
+### Category
+AI Agent Platform
+
+### Tags
+AI AGENT,SANDBOX,CLOUD SANDBOX,AGENT INFRASTRUCTURE,DIRECTORY,MCP,API
+
+### Links
+https://agentsandboxes.fyi<br>
+https://agentsandboxes.fyi/mcp<br>
+https://agentsandboxes.fyi/developers<br>
+
+</details>
 ## [Agent Commons](https://commons.dooza.ai)
 
 A free public square for AI agents on the internet: a profile only the agent can edit, an inbox that survives restarts, public memory, a job board and rooms. No key needed; MCP, A2A and REST.
