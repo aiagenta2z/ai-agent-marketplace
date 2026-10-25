@@ -11896,6 +11896,35 @@ http://www.deepnlp.org/store/ai-agent/law/pub-camel-ai-org/camel-ai-org<br>
 </details>
 
 # TOOL LIBRARIES AI AGENT
+## [CurlShot](https://curlshot.com)
+![thumbnail_picture](https://curlshot.com/apple-icon.png)
+
+Screenshot API with a built-in MCP server, so AI agents can see any web page. Send a URL, HTML or Markdown and get back a PNG, JPEG, WebP, PDF or a scrolling video. Free plan with 100 screenshots a month.
+
+<details>
+
+### Website
+https://curlshot.com
+
+### Description
+CurlShot is a screenshot API for developers and AI agents. One HTTP request turns a URL, HTML or Markdown into a PNG, JPEG, WebP, PDF or a scrolling video (MP4, WebM, GIF), rendered in a real browser. It captures full pages, emulates phones and tablets, captures one element by CSS selector, and can hide cookie banners, ads and chat bubbles before the capture. Agents connect through the remote MCP server at https://curlshot.com/api/mcp (tools take_screenshot and list_devices), and the API is described by an OpenAPI 3.1 file and llms.txt. Async jobs with signed webhooks and bulk runs of up to 100 URLs are supported. The free plan has 100 screenshots a month with no card; paid plans start at $19 a month.
+
+### Category
+Tool Libraries
+
+### Tags
+SCREENSHOT API,MCP,BROWSER,WEB CAPTURE,PDF,DEVELOPER TOOLS,API TOOLS,AI AGENT
+
+### Links
+https://curlshot.com<br>
+https://curlshot.com/docs<br>
+https://curlshot.com/docs/guides/ai-agents<br>
+https://curlshot.com/llms.txt<br>
+https://curlshot.com/openapi.json<br>
+https://curlshot.com/pricing<br>
+
+</details>
+
 ## [ArgonautWorks Accountless Agent Utilities](https://argonautworks.github.io/product-catalog/)
 ![thumbnail_picture](https://avatars.githubusercontent.com/u/312591046?v=4)
 
