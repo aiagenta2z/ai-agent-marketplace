@@ -11973,6 +11973,33 @@ https://curlshot.com/pricing<br>
 
 </details>
 
+## [CodeTrendy](https://codetrendy.com)
+![thumbnail_picture](https://codetrendy.com/android-icon-192x192.png)
+
+Read-only MCP server for the CodeTrendy directory, so AI agents can search the websites, SaaS and AI tools listed there, read full listing profiles and find alternatives to a product. Streamable HTTP, no API key, no account.
+
+<details>
+
+### Website
+https://codetrendy.com
+
+### Description
+CodeTrendy is a curated directory of websites, SaaS and AI tools. Its remote MCP server at https://codetrendy.com/api/mcp (Streamable HTTP, no API key, no account) gives agents seven read-only tools: search_listings (keyword search with optional category and pricing filters), get_listing (full profile by slug), find_alternatives (alternatives to a named product), browse_category, list_categories, get_trending and get_site_of_the_day. Setup for Claude Code: claude mcp add --transport http codetrendy https://codetrendy.com/api/mcp. The server is published in the official MCP Registry as com.codetrendy/directory.
+
+### Category
+Tool Libraries
+
+### Tags
+MCP,DIRECTORY,SEARCH,SAAS,AI TOOLS,PRODUCT DISCOVERY,AI AGENT
+
+### Links
+https://codetrendy.com<br>
+https://codetrendy.com/mcp<br>
+https://codetrendy.com/.well-known/mcp/server.json<br>
+https://codetrendy.com/llms.txt<br>
+
+</details>
+
 ## [ArgonautWorks Accountless Agent Utilities](https://argonautworks.github.io/product-catalog/)
 ![thumbnail_picture](https://avatars.githubusercontent.com/u/312591046?v=4)
 
