@@ -7162,6 +7162,30 @@ http://www.deepnlp.org/store/ai-agent/research/pub-wiley-online-library/wiley-on
 </details>
 
 # FINANCE AI AGENT
+## [Agent Wallet Index](https://agentwalletindex.fyi)
+
+Wallets and rails that let AI agents spend money safely, with source-linked facts and a free REST API and MCP endpoint.
+
+<details>
+
+### Website
+https://agentwalletindex.fyi
+
+### Description
+Agent Wallet Index is a read-only index of wallets, payment platforms, payment protocols, key-management tools and card rails for AI agents that hold or spend money. Each row records features, fees and protocol support - including x402, AP2 and ACP - with a link to the cited source. The index is free: a keyless REST API (OpenAPI spec at https://agentwalletindex.fyi/api/v1/openapi.json) and a hosted Streamable HTTP MCP endpoint (https://agentwalletindex.fyi/mcp) let agents search and compare options with no sign-in.
+
+### Category
+Finance
+
+### Tags
+FINANCE,PAYMENTS,AGENT WALLETS,X402,AI AGENT,DIRECTORY,MCP,API
+
+### Links
+https://agentwalletindex.fyi<br>
+https://agentwalletindex.fyi/mcp<br>
+https://agentwalletindex.fyi/developers<br>
+
+</details>
 ## [Equibles](https://equibles.com)
 ![thumbnail_picture](https://equibles.com/images/og-default.png)
 
