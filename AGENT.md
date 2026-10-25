@@ -6801,6 +6801,32 @@ http://www.deepnlp.org/store/ai-agent/data-analysis/pub-dev-community/dev-commun
 </details>
 
 # RESEARCH AI AGENT
+## [Pulse: AI-Moderated Market Research](https://pulsecorp.co)
+![thumbnail_picture](https://pulsecorp.co/brand/og-card.png)
+
+AI-moderated customer interviews for market research. An AI moderator runs customer interviews at scale for product, marketing and research teams.
+
+<details>
+
+### Website
+https://pulsecorp.co
+
+### Description
+Pulse is an AI-moderated market research platform. An AI moderator runs customer interviews at scale for product, marketing and research teams, by voice, video, text chat, phone call and WhatsApp. Anyone can sign up with no waitlist; paid plans are available and a free trial is included.
+
+### Category
+Research
+
+### Tags
+RESEARCH,MARKET RESEARCH,USER RESEARCH,CUSTOMER INTERVIEWS,QUALITATIVE RESEARCH,AI AGENT
+
+### Links
+https://pulsecorp.co<br>
+https://app.pulsecorp.co/signin<br>
+https://interview.pulsecorp.co/rsk1tc9lbi0f<br>
+
+</details>
+
 ## [Arcmira: YouTube Transcript Search](https://arcmira.com)
 
 Search indexed YouTube transcripts for timestamped passages and source links through an API or authenticated MCP connection.
