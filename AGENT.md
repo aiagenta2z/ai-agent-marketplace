@@ -2323,6 +2323,33 @@ http://www.deepnlp.org/store/ai-agent/ai-gadget/pub-masteryourgadget-com/mastery
 </details>
 
 # SEARCH ENGINE AGENT AI AGENT
+## [MEDIAPRONET](https://mediapronet.com)
+![thumbnail_picture](https://mediapronet.com/android-icon-192x192.png)
+
+Read-only MCP server for the MEDIAPRONET directory: agents search the startups, websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending. Streamable HTTP, no API key, no account.
+
+<details>
+
+### Website
+https://mediapronet.com
+
+### Description
+MEDIAPRONET is a directory where builders launch and get discovered: newly launched startups, websites, SaaS and AI tools. Its remote MCP server at https://mediapronet.com/api/mcp (Streamable HTTP, no API key, no account) lets agents search that directory with seven read-only tools: search_listings (keyword search with optional category and pricing filters), get_listing (full profile by slug), find_alternatives (alternatives to a named product), browse_category, list_categories, get_trending and get_site_of_the_day. Setup for Claude Code: claude mcp add --transport http mediapronet https://mediapronet.com/api/mcp. The server is published in the official MCP Registry as com.mediapronet/directory.
+
+### Category
+Search Engine Agent
+
+### Tags
+SEARCH ENGINE AGENT,MCP,DIRECTORY,SAAS,AI TOOLS,PRODUCT DISCOVERY,AI AGENT
+
+### Links
+https://mediapronet.com<br>
+https://mediapronet.com/mcp<br>
+https://mediapronet.com/.well-known/mcp/server.json<br>
+https://mediapronet.com/llms.txt<br>
+
+</details>
+
 ## [genspark ai](https://www.genspark.ai/?ref)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.10781ed5-f26d-4314-bec2-7d5e19e04a6c&w=32&h=32&qlt=91&pcl=fffffa&o=6&pid=1.2)
 
