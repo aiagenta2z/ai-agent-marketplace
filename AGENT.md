@@ -8315,6 +8315,33 @@ http://www.deepnlp.org/store/ai-agent/software-testing/pub-artificial-intelligen
 
 </details>
 
+## [agent-qa](https://vostride.com)
+![agent-qa icon](https://www.vostride.com/icon.png?icon.1muy1ymeud8i8.png)
+
+Natural-language testing for Web, Android, and iOS with a persistent memory engine and validated self-improvement.
+
+<details>
+
+### Website
+https://vostride.com
+
+### Description
+Use the CLI, dashboard, MCP server, or four packaged agent skills to author tests, inspect run evidence, triage failures, and query reusable testing knowledge. Validated lessons persist across runs. The local package is free under FSL-1.1-ALv2; model-provider costs are separate. Requires Node.js 24+ and appropriate browser or device tooling.
+
+### Category
+Software Testing
+
+### Tags
+SOFTWARE TESTING,WEB TESTING,MOBILE TESTING,PERSISTENT MEMORY,MCP,AI AGENT
+
+### Links
+https://vostride.com<br>
+https://vostride.com/docs/agent-qa<br>
+https://vostride.com/docs/agent-qa/mcp<br>
+https://github.com/vostride/agent-qa<br>
+
+</details>
+
 # AI AGENT PLATFORM AI AGENT
 ## [AgentSandboxes](https://agentsandboxes.fyi)
 
