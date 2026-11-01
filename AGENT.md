@@ -12290,6 +12290,35 @@ https://www.npmjs.com/package/fiatdock-mcp<br>
 
 </details>
 
+## [Model Salt](https://modelsalt.com)
+![thumbnail_picture](https://modelsalt.com/apple-touch-icon.png)
+
+An MCP server with one tool: before a creative task the model calls it and gets back a few choices to settle this time, drawn from randomness outside the model (atmospheric and quantum noise), so one prompt gives different answers that still do what was asked.
+
+<details>
+
+### Website
+https://modelsalt.com
+
+### Description
+Ask a model for "an SVG of a pelican riding a bicycle" ten times and you mostly get one picture ten times. Model Salt is an open source MCP server with one tool, model_salt. Before a creative task the model calls it and gets back a few choices to settle this time (a palette, a pose, a name, an opening line), drawn from randomness outside the model: random.org atmospheric noise, a quantum random number generator and the drand beacon. Then it does the request as asked; only the open choices move, and randomness 0 gives the usual answer. In ten runs on Claude Opus 5.5 the pelican prompt gave 1 distinct drawing without it and 9 with it. It works through the prompt, so it runs on closed models in Claude Code, Codex, Gemini CLI, Kimi Code and any MCP client. Install: npx -y model-salt setup claude (or codex, gemini, kimi). modelsalt.com shows ten runs per prompt on six models, plain and with it. MIT licensed, JavaScript (Node), stdio transport. Official MCP Registry: com.modelsalt/model-salt.
+
+### Category
+Tool Libraries
+
+### Tags
+MCP,MCP SERVER,CREATIVITY,RANDOMNESS,LLM,CLAUDE,PROMPT,OPEN SOURCE,AI AGENT
+
+### Reviews
+https://modelsalt.com
+
+### Links
+https://modelsalt.com<br>
+https://github.com/modelsalt/model-salt<br>
+https://www.npmjs.com/package/@modelsalt/model-salt<br>
+
+</details>
+
 # ENTERTAINMENT AI AGENT
 ## [sixtysixten com](https://sixtysixten.com/ai-agent-for-entertainment-industry-insights/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&w=32&h=32&qlt=96&pcl=fffffa&o=6&pid=1.2)
