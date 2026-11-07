@@ -12319,6 +12319,35 @@ https://www.npmjs.com/package/@modelsalt/model-salt<br>
 
 </details>
 
+## [looot](https://looot.ai)
+![thumbnail_picture](https://looot.ai/apple-touch-icon.png)
+
+One API key and one prepaid balance for 4,200+ business-data operations from 300+ providers, built for AI agents. Agents search the catalog, see the price before running and pay per call.
+
+<details>
+
+### Website
+https://looot.ai
+
+### Description
+looot gives AI agents one API key and one prepaid balance for 4,200+ business-data operations from 300+ providers: work email and phone lookup, email verification, company and people enrichment, Google SERP, web pages as markdown, web and news search, LinkedIn profiles, local businesses and SEO data. Agents search the catalog, see the price before running and pay per call; a failed call costs $0. No subscription, top up from $5. Remote MCP server at https://api.looot.ai/mcp (OAuth sign-in or Bearer key), REST API, CLI and SDKs. Official MCP Registry: ai.looot/looot.
+
+### Category
+Tool Libraries
+
+### Tags
+MCP,MCP SERVER,DATA API,ENRICHMENT,SERP,AI AGENT
+
+### Reviews
+https://looot.ai
+
+### Links
+https://looot.ai<br>
+https://docs.looot.ai<br>
+https://github.com/loootai/looot-mcp<br>
+
+</details>
+
 # ENTERTAINMENT AI AGENT
 ## [sixtysixten com](https://sixtysixten.com/ai-agent-for-entertainment-industry-insights/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&w=32&h=32&qlt=96&pcl=fffffa&o=6&pid=1.2)
