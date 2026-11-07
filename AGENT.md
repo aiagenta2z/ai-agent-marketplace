@@ -36788,3 +36788,31 @@ https://github.com/PANDeveloper001/unstuck<br>
 https://nano.org/<br>
 
 </details>
+
+# Meetini
+## [Meetini](https://meetini.net/)
+![Meetini logo](https://meetini.net/favicon.png)
+
+Paid meeting and interview assistant for Apple Silicon Macs, with local live captions and transcripts and optional cloud AI assistance.
+
+<details>
+
+### Website
+https://meetini.net/
+
+### Description
+Meetini offers local live captions and transcripts, meeting notes and history, interview preparation, mock interviews, and a web companion. The Career plan adds cloud AI keywords, answer suggestions and follow-up assistance, including 600 AI minutes per month. It is a proprietary end-user application, not an autonomous agent framework or public API. It is not entirely offline.
+
+Notes costs $20/month or $45/quarter. Career costs $95/month or $240/quarter. Public launch is planned for November 9, 2026.
+
+### Category
+Productivity / Meeting and Interview Assistant
+
+### Tags
+MEETING ASSISTANT,TRANSCRIPTION,INTERVIEW PREPARATION,MACOS,PAID
+
+### Links
+https://meetini.net/<br>
+https://meetini.net/pricing<br>
+
+</details>
