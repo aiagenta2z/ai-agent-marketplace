@@ -5483,6 +5483,35 @@ http://www.deepnlp.org/store/ai-agent/embodied-ai/pub-mit-csail/mit-csail<br>
 </details>
 
 # VIDEO GENERATOR AI AGENT
+## [Imagera](https://imagera.ai)
+![thumbnail_picture](https://imagera.ai/apple-touch-icon.png)
+
+Browser studio that runs many AI video and image models side by side, plus voice and music. Character IDs keep a face or product the same across clips, and the price is shown before each run.
+
+<details>
+
+### Website
+https://imagera.ai
+
+### Description
+Imagera is a browser studio for AI video, images, voice and music. Its Sandbox runs many video and image models side by side (text to video, image to video, image editing) and shows the credit price before each job. Character, Object and Location IDs keep the same face, product or place consistent across images and clips. Agents can drive it through a remote MCP server at https://mcp.imagera.ai/mcp (OAuth sign-in) or the REST API (OpenAPI at https://api.imagera.ai/openapi.json). Paid credit plans.
+
+### Category
+Video Generator
+
+### Tags
+VIDEO GENERATOR,AI AGENT,IMAGE GENERATOR,TEXT TO VIDEO,MCP SERVER
+
+### Reviews
+https://imagera.ai
+
+### Links
+https://imagera.ai<br>
+https://imagera.ai/mcp<br>
+https://github.com/alexadams6ix/imagera-skills<br>
+
+</details>
+
 ## [giz ai](https://www.giz.ai/ai-video-generator/)
 ![thumbnail_picture](https://th.bing.com/th?id=ODLS.2f875b40-2cb6-48c0-b595-34353e2ab9c1&w=32&h=32&qlt=91&pcl=fffffa&o=6&pid=1.2)
 
