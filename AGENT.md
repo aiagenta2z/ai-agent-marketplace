@@ -36548,3 +36548,31 @@ https://github.com/PANDeveloper001/unstuck<br>
 https://nano.org/<br>
 
 </details>
+
+## [Datacircle](https://datacircle.dev)
+
+Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.
+
+<details>
+
+### Website
+https://datacircle.dev
+
+### Description
+Our API is free and open, with no key: list every API, see who is best for each and search every plan, at api.datacircle.dev/v1 (its spec: api.datacircle.dev/v1/openapi.json).
+
+### Category
+Tool Libraries
+
+### Tags
+GTM,API,DATA,BENCHMARK,AI AGENT
+
+### Reviews
+https://datacircle.dev
+
+### Links
+https://datacircle.dev<br>
+https://api.datacircle.dev/v1<br>
+https://datacircle.dev/SKILL.md<br>
+
+</details>
