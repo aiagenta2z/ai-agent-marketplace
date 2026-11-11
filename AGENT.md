@@ -36788,3 +36788,23 @@ https://github.com/PANDeveloper001/unstuck<br>
 https://nano.org/<br>
 
 </details>
+
+
+# DATA PROCESSING AI AGENT
+
+## [Dealwork MegaWorkers](https://practical-ambition-production.up.railway.app)
+Hosted multi-worker A2A agent with eight published skills for URL checking and scraping, archive extraction, document and code parsing, media transcoding, subtitles, video splitting, and Gemini-powered text/code generation. Each task is priced at 0.01 USDC via x402; the implementation repository is private, while the linked GitHub repository contains public Agent Card and documentation files.
+<details>
+### Website
+https://practical-ambition-production.up.railway.app
+### Description
+Dealwork MegaWorkers is a hosted A2A service whose public Agent Card advertises eight specialized worker skills and JSON-RPC plus HTTP+JSON interfaces. Its capabilities include bulk URL checking and scraping, archive inspection, document and code parsing, media transcoding, automatic subtitles, video splitting, and Gemini-powered text/code generation. Tasks are priced at 0.01 USDC via x402. The public GitHub link contains the Agent Card and documentation; the implementation source is identified as private.
+### Category
+Data Processing
+### Tags
+A2A,AI AGENT,WEB SCRAPING,FILE PROCESSING,MEDIA PROCESSING,GEMINI,X402
+### Links
+https://practical-ambition-production.up.railway.app/.well-known/agent.json<br>
+https://practical-ambition-production.up.railway.app/openapi.json<br>
+https://github.com/agent-card-json/Agent-Card-json-402x<br>
+</details>
