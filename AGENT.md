@@ -12027,6 +12027,35 @@ https://curlshot.com/pricing<br>
 
 </details>
 
+## [GetYouTubeTranscript](https://getyoutubetranscript.com)
+![thumbnail_picture](https://getyoutubetranscript.com/images/logo.png)
+
+YouTube transcripts and YouTube data for AI agents, through a hosted MCP server, a REST API and a CLI. Get a video's transcript with timestamps, search YouTube and list channel uploads. New accounts get 100 free credits.
+
+<details>
+
+### Website
+https://getyoutubetranscript.com
+
+### Description
+GetYouTubeTranscript returns the transcript of a YouTube video as text or JSON, with optional timestamps, in any caption language the video has. It also searches YouTube, lists a channel's latest uploads, full video list, playlists and community posts, and lists the videos in a playlist. Agents connect through the remote MCP server at https://getyoutubetranscript.com/api/mcp (OAuth or API key; tools include get_youtube_transcript, search_youtube and get_channel_latest_videos), through the REST API described by an OpenAPI file and llms.txt, or through the gyt CLI. It reads the captions a video already has and does not run speech-to-text. New accounts get 100 free credits with no card; each successful call costs one credit, and paid plans cover heavier use.
+
+### Category
+Tool Libraries
+
+### Tags
+YOUTUBE,TRANSCRIPT,MCP,VIDEO,CAPTIONS,API TOOLS,RESEARCH,AI AGENT
+
+### Links
+https://getyoutubetranscript.com<br>
+https://getyoutubetranscript.com/docs<br>
+https://github.com/tubeagentkit/youtube-mcp<br>
+https://getyoutubetranscript.com/llms.txt<br>
+https://getyoutubetranscript.com/openapi.json<br>
+https://getyoutubetranscript.com/pricing<br>
+
+</details>
+
 ## [CodeTrendy](https://codetrendy.com)
 ![thumbnail_picture](https://codetrendy.com/android-icon-192x192.png)
 
