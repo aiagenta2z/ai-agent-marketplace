@@ -36874,3 +36874,31 @@ https://meetini.net/<br>
 https://meetini.net/pricing<br>
 
 </details>
+## [CallForMe](https://callforme.tel/?ref=ai-agent-marketplace)
+![thumbnail_picture](https://callforme.tel/icon-512.png)
+
+CallForMe gives your AI agent a phone: it calls businesses, waits on hold, asks your agent mid-call and reports back with the answers and a transcript. Remote MCP server plus REST API.
+
+<details>
+
+### Website
+https://callforme.tel/?ref=ai-agent-marketplace
+
+### Description
+CallForMe is a remote MCP server that lets Claude, ChatGPT, Codex, Gemini CLI or any MCP agent phone businesses in the US and Canada for you. Ask for three brake quotes, a dinner reservation or a cancellation. A voice assistant places the call, works the phone menu, waits on hold, asks your agent mid-call when the business needs something, then returns the answers and a full transcript. $1 per answered call including the first 2 minutes, then $0.40/min. Calls nobody answers aren't billed. Prepaid, $5 to start. A demo line needs no account.
+
+### Category
+Tool Libraries
+
+### Tags
+MCP,AI AGENT,VOICE AI,PHONE CALLS,API TOOLS,PRODUCTIVITY
+
+### Links
+https://callforme.tel/?ref=ai-agent-marketplace<br>
+https://callforme.tel/docs/mcp?ref=ai-agent-marketplace<br>
+https://callforme.tel/openapi.json<br>
+https://callforme.tel/llms.txt<br>
+https://callforme.tel/docs/pricing?ref=ai-agent-marketplace<br>
+https://github.com/callforme-tel/callforme<br>
+
+</details>
