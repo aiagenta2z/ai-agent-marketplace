@@ -6828,6 +6828,31 @@ http://www.deepnlp.org/store/ai-agent/data-analysis/pub-dev-community/dev-commun
 </details>
 
 # RESEARCH AI AGENT
+## [QuestionPunk: Surveys and AI-Moderated Interviews](https://www.questionpunk.com/)
+![thumbnail_picture](https://www.questionpunk.com/opengraph-image)
+
+Surveys and AI-moderated interviews for user and market research. An AI moderator interviews participants by voice or chat and asks follow-up questions based on their answers.
+
+<details>
+
+### Website
+https://www.questionpunk.com/
+
+### Description
+QuestionPunk is a research platform for surveys and AI-moderated interviews. A study can mix standard survey questions with voice or chat interviews in which an AI moderator asks follow-up questions based on each answer. Results come back as response reports and cross-tabs. A hosted MCP server lets an assistant such as Claude or ChatGPT create a study, edit questions on a draft, publish it when the user asks, and, with permission, read responses and reports.
+
+### Category
+Research
+
+### Tags
+RESEARCH,SURVEYS,USER RESEARCH,CUSTOMER INTERVIEWS,QUALITATIVE RESEARCH,MCP,AI AGENT
+
+### Links
+https://www.questionpunk.com/<br>
+https://www.questionpunk.com/features/mcp-server<br>
+
+</details>
+
 ## [Pulse: AI-Moderated Market Research](https://pulsecorp.co)
 ![thumbnail_picture](https://pulsecorp.co/brand/og-card.png)
 
