@@ -36902,3 +36902,30 @@ https://callforme.tel/docs/pricing?ref=ai-agent-marketplace<br>
 https://github.com/callforme-tel/callforme<br>
 
 </details>
+# KITE
+## [Kite](https://kite.new)
+![thumbnail_picture](https://kite.new/apple-icon.png)
+
+Kite is a design tool your AI agents and your team share. Claude, ChatGPT, Cursor or Codex connect through Kite's hosted MCP server and draw real, editable layers in the same file your team edits live.
+
+<details>
+
+### Website
+https://kite.new
+
+### Description
+Kite (kite.new) is a design tool your AI agents and your team share. Claude, ChatGPT, Cursor or Codex connect through Kite's hosted MCP server (https://kite.new/api/mcp, OAuth) and draw real, editable layers (frames, text, components, auto layout) in the same file your team edits live. Copy to Figma, or copy any frame as HTML, React or Tailwind. Free plan: unlimited editors, 3 files, 100 agent actions/day. Pro is $16/editor/month billed yearly ($20 monthly).
+
+### Category
+Tool Libraries
+
+### Tags
+MCP,AI AGENT,DESIGN,UI DESIGN,FIGMA ALTERNATIVE,CANVAS
+
+### Links
+https://kite.new<br>
+https://kite.new/docs/mcp<br>
+https://kite.new/pricing<br>
+https://github.com/kitedotnew/kite-agent-plugins<br>
+
+</details>
