@@ -8370,6 +8370,30 @@ https://github.com/vostride/agent-qa<br>
 </details>
 
 # AI AGENT PLATFORM AI AGENT
+## [agent-exec](https://agent-exec.448c.org)
+
+Accountless, pay-per-call services for software agents: sandboxed code execution, LLM chat, JSON-RPC to Base/Ethereum/Solana, gasless USDC transfers, storage, attestations, URL watches, disposable email inboxes, and risk checks. No account or API key, paid per call over x402 in USDC.
+
+<details>
+
+### Website
+https://agent-exec.448c.org
+
+### Description
+agent-exec is an accountless, pay-per-call API platform for software agents: sandboxed Python/Node execution, JSON-RPC to Base, Ethereum and Solana, gasless USDC transfers and approvals (EIP-3009/EIP-2612), LLM chat completion, weather, web search, live flight positions, web page and PDF text extraction, durable object storage, key claims, timestamped URL attestations, dead-man's-switch handoffs, URL/endpoint-drift watches, disposable email inboxes, rented DNS names, address/URL/payment-quote risk checks, and x402 payment delivery. Every call settles over x402 in USDC on Base, Solana, Polygon, Arbitrum, Avalanche, Sei and X Layer. No account, no API key, no sign-up. Third-party graded A (96/100) by x402lint.dev.
+
+### Category
+AI Agent Platform
+
+### Tags
+AI AGENT PLATFORM,X402,API TOOLS,SANDBOX,CODE EXECUTION,BLOCKCHAIN,USDC,ACCOUNTLESS,MCP,AI AGENT
+
+### Links
+https://agent-exec.448c.org<br>
+https://agent-exec.448c.org/mcp<br>
+https://agent-exec.448c.org/llms.txt<br>
+
+</details>
 ## [AgentSandboxes](https://agentsandboxes.fyi)
 
 A neutral index of cloud sandbox providers for AI agents, queryable through a free REST API and a hosted MCP endpoint.
